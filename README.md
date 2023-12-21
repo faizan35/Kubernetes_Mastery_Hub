@@ -12,9 +12,9 @@ Welcome to the Advanced Kubernetes Learning Repository! This repository provides
 1.4 [Kubernetes Installation using Minikube](./Module-1/1.4-Kubernetes-Installation-using-Minikube.md)
 1.5 [Kubernetes Installation using kubeadm](./Module-1/1.5-Kubernetes-Installation-using-kubeadm.md)
 
-1.6 [Kubernetes Pods](./Module-1/1.5-Kubernetes-Pods.md)
+1.6 [Kubernetes Pods](./Module-1/1.6-Kubernetes-Pods.md)
 
-1.7 [Practical Exercise](./Module-1/1.6-Kubernetes-Pods.md)
+1.7 [Practical Exercise](./Module-1/1.7-Kubernetes-Pods.md)
 
 #### 2. [Networking in Kubernetes](#module-2-networking-in-kubernetes)
 
