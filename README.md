@@ -104,4 +104,3 @@ Welcome to the Advanced Kubernetes Learning Repository! This repository provides
 ---
 
 Happy learning!
-

@@ -5,4 +5,3 @@ Selectors are the criterias in which you are doing the matching.
 CrashLoopBackOff
 
 HELM internally kubeCTL ko call krta h , so master node pe chalta h.
-
