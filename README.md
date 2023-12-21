@@ -14,7 +14,7 @@ Welcome to the Advanced Kubernetes Learning Repository! This repository provides
 
 1.6 [Kubernetes Pods](./Module-1/1.6-Kubernetes-Pods.md)
 
-1.7 [Practical Exercise](./Module-1/1.7-Kubernetes-Pods.md)
+1.7 [Practical Exercise](./Module-1/1.7-Practical.md)
 
 #### 2. [Networking in Kubernetes](#module-2-networking-in-kubernetes)
 
