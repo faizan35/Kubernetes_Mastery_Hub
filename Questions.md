@@ -23,3 +23,9 @@ A) This question assesses the candidate's understanding of networking in Kuberne
 Q) Explain the concept of Persistent Volumes (PVs) and Persistent Volume Claims (PVCs) in Kubernetes. How do they contribute to data persistence in containerized environments?
 
 A) This question delves into the candidate's knowledge of storage management in Kubernetes. A good response should touch upon how Persistent Volumes provide a way for Pods to access durable storage, and Persistent Volume Claims act as a request for storage resources. Look for an understanding of how these components enable data persistence across container restarts and rescheduling.
+
+
+
+Q) Explain the concept of Kubernetes Secrets and ConfigMaps. How are they used to manage sensitive information and configuration in containerized applications?
+
+A) This question evaluates the candidate's understanding of managing sensitive data and configuration in Kubernetes. A good answer should cover the purpose of Secrets for managing sensitive information like API keys or passwords and ConfigMaps for handling non-sensitive configuration data. Candidates should also discuss how these resources are mounted into Pods as volumes or environment variables and how they contribute to the separation of configuration from application code in a containerized environment.
