@@ -13,3 +13,13 @@ A) This question assesses the candidate's understanding of fundamental Kubernete
 Q) Describe the role and significance of Deployments in Kubernetes.
 
 A) This question evaluates the candidate's knowledge of Kubernetes orchestration and scalability. A good response should cover how Deployments provide declarative updates to applications, manage the deployment lifecycle, and ensure high availability by allowing rolling updates and rollbacks.
+
+
+
+Q) What is the role of a Service in Kubernetes, and how does it facilitate communication between different Pods?
+
+A) This question assesses the candidate's understanding of networking in Kubernetes. A comprehensive answer should cover how Services provide a stable endpoint for accessing a set of Pods, enabling load balancing and discovery within the cluster. Discussing different types of Services, such as ClusterIP, NodePort, and LoadBalancer, would be a plus.
+
+Q) Explain the concept of Persistent Volumes (PVs) and Persistent Volume Claims (PVCs) in Kubernetes. How do they contribute to data persistence in containerized environments?
+
+A) This question delves into the candidate's knowledge of storage management in Kubernetes. A good response should touch upon how Persistent Volumes provide a way for Pods to access durable storage, and Persistent Volume Claims act as a request for storage resources. Look for an understanding of how these components enable data persistence across container restarts and rescheduling.
