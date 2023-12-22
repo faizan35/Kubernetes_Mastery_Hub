@@ -11,7 +11,6 @@ Welcome to the Advanced Kubernetes Learning Repository! This repository provides
 1.3 [Kubernetes Workflow](./Module-1/1.3-Kubernetes-Workflow.md)
 1.4 [Kubernetes Installation using Minikube](./Module-1/1.4-Kubernetes-Installation-using-Minikube.md)
 1.5 [Kubernetes Installation using kubeadm](./Module-1/1.5-Kubernetes-Installation-using-kubeadm.md)
-
 1.6 [Kubernetes Pods](./Module-1/1.6-Kubernetes-Pods.md)
 
 1.7 [Practical Exercise](./Module-1/1.7-Practical.md)
@@ -102,5 +101,28 @@ Welcome to the Advanced Kubernetes Learning Repository! This repository provides
 13.3 [Practical Exercise](#133-practical-exercise)
 
 ---
+
+## Contribution
+
+We welcome contributions from the community! If you'd like to contribute, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and submit a pull request.
+4. Provide a detailed description of your changes.
+
+## Guidelines for Contributors
+
+- Follow the existing coding style and structure.
+- Test your changes thoroughly before submitting a pull request.
+- Ensure that your contribution adds value to the guide.
+
+## Code of Conduct
+
+Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a positive and inclusive environment for all contributors.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
 Happy learning!
