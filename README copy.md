@@ -1,34 +1,44 @@
-### 1. Introduction to Kubernetes
+1. **Introduction to Kubernetes:**
 
-**Theory**
+   - **Theory:**
 
-- [1.1 What is Kubernetes?](./Module-1/1.1-What-is-Kubernetes.md)
-- [1.2 Kubernetes Architecture](./Module-1/1.2-kubernetes-architecture.md)
-- [1.3 Kubernetes Workflow](./Module-1/1.3-Kubernetes-Workflow.md)
+     - Understand the basics of Kubernetes, its architecture, and its role in container orchestration.
 
-**Practical**
+   - **Project: Setting up a Local Cluster**
 
-- [1.4 Setting up a K8s Cluster (local)](./Module-1/1.4-Kubernetes-Installation-using-Minikube.md)
-- [1.5 Setting up a K8s Cluster (kubeadm)](./Module-1/1.5-Kubernetes-Installation-using-kubeadm.md)
+     - Description: Create a small Kubernetes cluster using tools like Minikube or Kind on your local machine. Deploy a basic application to get a feel for Kubernetes.
 
-### 2. Kubernetes Objects
+   - [1.1 What is Kubernetes?](./Module-1/1.1-What-is-Kubernetes.md)
+   - [1.2 Kubernetes Architecture](./Module-1/1.2-kubernetes-architecture.md)
+   - [1.3 Kubernetes Workflow](./Module-1/1.3-Kubernetes-Workflow.md)
 
-**Theory**
+   - [1.4 Setting up a K8s Cluster (local)](./Module-1/1.4-Kubernetes-Installation-using-Minikube.md)
+   - [1.5 Setting up a K8s Cluster (kubeadm)](./Module-1/1.5-Kubernetes-Installation-using-kubeadm.md)
+   - [1.6 Kubernetes Garbage Collection](./Module-1/1.6-Kubernetes-Garbage-Collection.md)
+   - [1.7 Some Imp Topics](./Module-1/1.7-Some-Imp-Topics.md)
+     - How external services connect to the cluster
 
-- [2.1 Kubernetes Object](./Module-2/2.1-Kubernetes-Object.md)
+2. **Kubernetes Objects:**
 
-**Practical**
+   - **Theory:**
 
-- [2.2 Deploying web server using Pod](./Module-2/2.2-Deployment-using-Pod.md)
+     - Learn about the fundamental building blocks in Kubernetes, known as objects.
+     - Common examples of objects include Pods, Services, Deployments, ConfigMaps, Secrets, etc.
 
-### 3. **YAML Syntax:**
+   - **Project: Basic Pod Deployment**
 
-- **Theory:**
+     - Description: Deploy a simple web server using a Pod manifest. Experiment with different configurations such as environment variables and commands.
 
-  - Familiarize yourself with YAML syntax, as Kubernetes manifests are typically written in YAML.
+   - [2.1 Basics of YAML Syntax](./Module-2/2.1-Basics-of-YAML-Syntax.md)
 
-- **Project: YAML Configuration Practice**
-  - Description: Create various YAML files for different Kubernetes objects, ensuring correct syntax and understanding indentation and key-value pairs.
+3. **YAML Syntax:**
+
+   - **Theory:**
+
+     - Familiarize yourself with YAML syntax, as Kubernetes manifests are typically written in YAML.
+
+   - **Project: YAML Configuration Practice**
+     - Description: Create various YAML files for different Kubernetes objects, ensuring correct syntax and understanding indentation and key-value pairs.
 
 4. **Pods:**
 
@@ -198,30 +208,3 @@
 
     - **Project: Network Segmentation**
       - Description: Implement Network Policies to control the flow of traffic between Pods in different Namespaces, ensuring a secure network environment.
-
----
-
-## Contribution
-
-We welcome contributions from the community! If you'd like to contribute, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and submit a pull request.
-4. Provide a detailed description of your changes.
-
-## Guidelines for Contributors
-
-- Follow the existing coding style and structure.
-- Test your changes thoroughly before submitting a pull request.
-- Ensure that your contribution adds value to the guide.
-
-## Code of Conduct
-
-Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a positive and inclusive environment for all contributors.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-Happy learning!
