@@ -1,3 +1,7 @@
+# KubernetesMasteryHub
+
+## < --- In Progress --- >
+
 ### 1. Introduction to Kubernetes
 
 **Theory**
@@ -5,92 +9,81 @@
 - [1.1 What is Kubernetes?](./Module-1/1.1-What-is-Kubernetes.md)
 - [1.2 Kubernetes Architecture](./Module-1/1.2-kubernetes-architecture.md)
 - [1.3 Kubernetes Workflow](./Module-1/1.3-Kubernetes-Workflow.md)
+- [1.4 Kubernetes Object](./Module-1/1.4-Kubernetes-Object.md)
+- [1.5 Basics YAML Syntax.md](./Module-1/1.5-Basics-YAML-Syntax.md)
 
 **Practical**
 
-- [1.4 Setting up a K8s Cluster (local)](./Module-1/1.4-Kubernetes-Installation-using-Minikube.md)
-- [1.5 Setting up a K8s Cluster (kubeadm)](./Module-1/1.5-Kubernetes-Installation-using-kubeadm.md)
+- [1.6 Setting up a K8s Cluster (local)](./Module-1/1.6-Kubernetes-Installation-using-Minikube.md)
+- [1.7 Setting up a K8s Cluster (kubeadm)](./Module-1/1.7-Kubernetes-Installation-using-kubeadm.md)
 
-### 2. Kubernetes Objects
+### 2. Pods
 
 **Theory**
 
-- [2.1 Kubernetes Object](./Module-2/2.1-Kubernetes-Object.md)
+- [2.1 Kubernetes Pods](./Module-2/2.1-Kubernetes-Pod.md)
+- [2.2 Learn to write Manifests](./Module-2/2.2-write-Manifests.md)
+- [2.3 Steps to run ALL Manifest file](./Module-2/2.3-steps-to-Run-Manifests.md)
 
 **Practical**
 
-- [2.2 Deploying web server using Pod](./Module-2/2.2-Deployment-using-Pod.md)
+- [2.4 Simple Nginx Pod](./Module-2/2.4-Simple-Nginx-Pod.md)
+- [2.5 Multi-Container Pod](./Module-2/2.5-Multi-container-pods.md)
 
-### 3. **YAML Syntax:**
+  - **Project: Multi-Container Pod**
+    - Description: Design a Pod that contains multiple containers that need to work together, demonstrating inter-container communication.
+
+### 3. ReplicaSets
 
 - **Theory:**
 
-  - Familiarize yourself with YAML syntax, as Kubernetes manifests are typically written in YAML.
+  - Explore ReplicaSets, which ensure a specified number of replicas for a Pod are running at all times.
+  - Understand how to create and manage ReplicaSets.
 
-- **Project: YAML Configuration Practice**
-  - Description: Create various YAML files for different Kubernetes objects, ensuring correct syntax and understanding indentation and key-value pairs.
+- **Project: Scaling with ReplicaSets**
+  - Description: Deploy an application with ReplicaSets and observe how Kubernetes maintains the specified number of replicas.
 
-4. **Pods:**
+### 4. Deployments
 
-   - **Theory:**
+- **Theory:**
 
-     - Start with Pods, which are the smallest deployable units in Kubernetes.
-     - Learn how to define a Pod manifest, including containers, volumes, and labels.
+  - Introduce Deployments, a higher-level abstraction over ReplicaSets, providing declarative updates to applications.
+  - Learn about rolling updates, rollbacks, and other deployment strategies.
 
-   - **Project: Multi-Container Pod**
-     - Description: Design a Pod that contains multiple containers that need to work together, demonstrating inter-container communication.
+- **Project: Rolling Updates and Rollbacks**
+  - Description: Deploy a sample app, make changes to the deployment manifest, and observe rolling updates. Practice rollbacks in case of issues.
 
-5. **ReplicaSets:**
+### 5. Services
 
-   - **Theory:**
+- **Theory:**
 
-     - Explore ReplicaSets, which ensure a specified number of replicas for a Pod are running at all times.
-     - Understand how to create and manage ReplicaSets.
+  - Understand Services, which enable communication between different parts of your application within a cluster.
+  - Explore ClusterIP, NodePort, and LoadBalancer types.
 
-   - **Project: Scaling with ReplicaSets**
-     - Description: Deploy an application with ReplicaSets and observe how Kubernetes maintains the specified number of replicas.
+- **Project: Microservices Communication**
+  - Description: Deploy two separate applications and create services to enable communication between them. Explore different service types.
 
-6. **Deployments:**
+### 6. ConfigMaps and Secrets
 
-   - **Theory:**
+- **Theory:**
 
-     - Introduce Deployments, a higher-level abstraction over ReplicaSets, providing declarative updates to applications.
-     - Learn about rolling updates, rollbacks, and other deployment strategies.
+  - Learn how to use ConfigMaps for configuration data and Secrets for sensitive information.
+  - Understand how to reference them in Pod configurations.
 
-   - **Project: Rolling Updates and Rollbacks**
-     - Description: Deploy a sample app, make changes to the deployment manifest, and observe rolling updates. Practice rollbacks in case of issues.
+- **Project: Configuring Applications**
+  - Description: Externalize configuration using ConfigMaps and store sensitive information such as database credentials using Secrets.
 
-7. **Services:**
+### 7. Namespaces
 
-   - **Theory:**
+- **Theory:**
 
-     - Understand Services, which enable communication between different parts of your application within a cluster.
-     - Explore ClusterIP, NodePort, and LoadBalancer types.
+  - Explore Namespaces to create isolated environments within a cluster.
+  - Understand how to organize and segregate resources using Namespaces.
 
-   - **Project: Microservices Communication**
-     - Description: Deploy two separate applications and create services to enable communication between them. Explore different service types.
+- **Project: Multi-Environment Cluster**
+  - Description: Use Namespaces to create distinct environments (e.g., development, staging, production) within a single Kubernetes cluster.
 
-8. **ConfigMaps and Secrets:**
-
-   - **Theory:**
-
-     - Learn how to use ConfigMaps for configuration data and Secrets for sensitive information.
-     - Understand how to reference them in Pod configurations.
-
-   - **Project: Configuring Applications**
-     - Description: Externalize configuration using ConfigMaps and store sensitive information such as database credentials using Secrets.
-
-9. **Namespaces:**
-
-   - **Theory:**
-
-     - Explore Namespaces to create isolated environments within a cluster.
-     - Understand how to organize and segregate resources using Namespaces.
-
-   - **Project: Multi-Environment Cluster**
-     - Description: Use Namespaces to create distinct environments (e.g., development, staging, production) within a single Kubernetes cluster.
-
-10. **Persistent Volumes and Persistent Volume Claims:**
+### 8. Persistent Volumes and Persistent Volume Claims
 
 - **Theory:**
 
@@ -100,23 +93,23 @@
 - **Project: Persistent Storage for Database**
   - Description: Deploy a database with persistent storage using Persistent Volumes and Persistent Volume Claims.
 
-11. **StatefulSets:**
+### 9. StatefulSets
 
-    - **Theory:**
+- **Theory:**
 
-      - Explore StatefulSets for stateful applications that require stable network identities and persistent storage.
+  - Explore StatefulSets for stateful applications that require stable network identities and persistent storage.
 
-    - **Project: Stateful Application Deployment**
-      - Description: Deploy a stateful application using StatefulSets, ensuring stable network identities and persistent storage.
+- **Project: Stateful Application Deployment**
+  - Description: Deploy a stateful application using StatefulSets, ensuring stable network identities and persistent storage.
 
-12. **DaemonSets:**
+### 10. DaemonSets
 
-    - **Theory:**
+- **Theory:**
 
-      - Understand DaemonSets, which ensure that all Nodes run a copy of a Pod, useful for system daemons.
+  - Understand DaemonSets, which ensure that all Nodes run a copy of a Pod, useful for system daemons.
 
-    - **Project: System Daemons Deployment**
-      - Description: Deploy a DaemonSet to ensure that a specific Pod runs on every node in the cluster.
+- **Project: System Daemons Deployment**
+  - Description: Deploy a DaemonSet to ensure that a specific Pod runs on every node in the cluster.
 
 13. **Jobs and CronJobs:**
 
@@ -225,3 +218,43 @@ Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a positive 
 This project is licensed under the [MIT License](LICENSE).
 
 Happy learning!
+
+---
+
+1. Introduction to Kubernetes
+
+2. Pods
+
+3. **ReplicaSets:**
+
+4. **Deployments:**
+
+5. **Services:**
+
+6. **ConfigMaps and Secrets:**
+
+7. **Namespaces:**
+
+8. **Persistent Volumes and Persistent Volume Claims:**
+
+9. **StatefulSets:**
+
+10. **DaemonSets:**
+
+11. **Jobs and CronJobs:**
+
+12. **Resource Quotas and LimitRange:**
+
+13. **Annotations and Labels:**
+
+14. **RBAC (Role-Based Access Control):**
+
+15. **Helm Charts:**
+
+16. **Kustomize:**
+
+17. **Custom Resource Definitions (CRDs):**
+
+18. **Monitoring and Logging:**
+
+19. **Network Policies:**
