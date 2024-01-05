@@ -23,32 +23,51 @@
 
 - [2.1 Kubernetes Pods](./Module-2/2.1-Kubernetes-Pod.md)
 - [2.2 Learn to write Manifests](./Module-2/2.2-write-Manifests.md)
-- [2.3 Steps to run ALL Manifest file](./Module-2/2.3-steps-to-Run-Manifests.md)
+- [2.3 Steps to run ANY Manifest file](./Module-2/2.3-steps-to-Run-Manifests.md)
 
 **Practical**
 
 - [2.4 Simple Nginx Pod](./Module-2/2.4-Simple-Nginx-Pod.md)
 - [2.5 Multi-Container Pod](./Module-2/2.5-Multi-container-pods.md)
 
-  - **Project: Multi-Container Pod**
-    - Description: Design a Pod that contains multiple containers that need to work together, demonstrating inter-container communication.
+### 3. Scaling of Pods
 
-### 3. ReplicaSets
+#### 3.1 ReplicaSets
 
-- **Theory:**
+**Theory**
 
-  - Explore ReplicaSets, which ensure a specified number of replicas for a Pod are running at all times.
-  - Understand how to create and manage ReplicaSets.
+- [3.1.1 What's & Why's of ReplicaSets](./Module-3/3.1.1-what-why-ReplicaSets.md)
+- [3.1.2 Key Components of ReplicaSets](./Module-3/3.1.2-Key-Components-ReplicaSets.md)
+- [3.1.3 Creating ReplicaSet](./Module-3/3.1.3-Creating-ReplicaSet.md)
 
-- **Project: Scaling with ReplicaSets**
-  - Description: Deploy an application with ReplicaSets and observe how Kubernetes maintains the specified number of replicas.
+- [3.1 ](./Module-3/3.1-.md)
+
+#### 3.2 Horizontal Pod Autoscaling (HPA)
+
+- [3.2.1 Everything about HPA](./Module-3/3.2.1-what-is-HPA.md)
+
+#### 3.x Future Topics realted to Scalling
+
+- [3.x Future Topics](./Module-3/3.x-Future-Topics.md)
+
+- [3.1 ](./Module-3/3.1-.md)
 
 ### 4. Deployments
 
-- **Theory:**
+**Theory:**
+
+- [4.1 ](./Module-4/4.1-.md)
+- [4.1 ](./Module-4/4.1-.md)
+- [4.1 ](./Module-4/4.1-.md)
 
   - Introduce Deployments, a higher-level abstraction over ReplicaSets, providing declarative updates to applications.
   - Learn about rolling updates, rollbacks, and other deployment strategies.
+
+**Practical**
+
+- **Project: Scaling with ReplicaSets**
+
+  - Description: Deploy an application with ReplicaSets and observe how Kubernetes maintains the specified number of replicas.
 
 - **Project: Rolling Updates and Rollbacks**
   - Description: Deploy a sample app, make changes to the deployment manifest, and observe rolling updates. Practice rollbacks in case of issues.
@@ -93,6 +112,11 @@
 - **Project: Persistent Storage for Database**
   - Description: Deploy a database with persistent storage using Persistent Volumes and Persistent Volume Claims.
 
+**extra**
+
+- **Project: Multi-Container Pod**
+  - Description: Design a Pod that contains multiple containers that need to work together, demonstrating inter-container communication.
+
 ### 9. StatefulSets
 
 - **Theory:**
@@ -111,7 +135,7 @@
 - **Project: System Daemons Deployment**
   - Description: Deploy a DaemonSet to ensure that a specific Pod runs on every node in the cluster.
 
-13. **Jobs and CronJobs:**
+### 11. **Jobs and CronJobs:**
 
     - **Theory:**
 
@@ -120,7 +144,7 @@
     - **Project: Scheduled Tasks**
       - Description: Create a Job to perform a one-off task and a CronJob to schedule tasks at specified intervals.
 
-14. **Resource Quotas and LimitRange:**
+### 12. **Resource Quotas and LimitRange:**
 
     - **Theory:**
 
@@ -129,7 +153,7 @@
     - **Project: Resource Management**
       - Description: Set up Resource Quotas to limit resource usage in a Namespace. Experiment with LimitRange to restrict container resource limits.
 
-15. **Annotations and Labels:**
+### 13. **Annotations and Labels:**
 
     - **Theory:**
 
@@ -138,7 +162,7 @@
     - **Project: Resource Organization**
       - Description: Apply labels and annotations to various objects in your cluster for organizational purposes and observe their impact.
 
-16. **RBAC (Role-Based Access Control):**
+### 116. **RBAC (Role-Based Access Control):**
 
     - **Theory:**
 
@@ -147,7 +171,7 @@
     - **Project: User Access Management**
       - Description: Implement RBAC to control user access to resources within a Namespace. Create roles and role bindings accordingly.
 
-17. **Helm Charts:**
+### 117. **Helm Charts:**
 
     - **Theory:**
 
@@ -156,7 +180,7 @@
     - **Project: Helm Chart for Application**
       - Description: Package your application using Helm charts. Include configurations, dependencies, and versioning in the Helm chart.
 
-18. **Kustomize:**
+### 118. **Kustomize:**
 
     - **Theory:**
 
@@ -165,7 +189,7 @@
     - **Project: Custom Manifests with Kustomize**
       - Description: Use Kustomize to customize Kubernetes manifests for different environments without modifying the original files.
 
-19. **Custom Resource Definitions (CRDs):**
+### 119. **Custom Resource Definitions (CRDs):**
 
     - **Theory:**
 
@@ -174,7 +198,7 @@
     - **Project: Custom Resource and Controller**
       - Description: Define a custom resource using CRDs and implement a controller to manage the lifecycle of the custom resource.
 
-20. **Monitoring and Logging:**
+### 120. **Monitoring and Logging:**
 
     - **Theory:**
 
@@ -183,7 +207,7 @@
     - **Project: Monitoring Setup with Prometheus and Grafana**
       - Description: Set up Prometheus for monitoring and Grafana for visualization. Create dashboards to monitor key metrics of your applications.
 
-21. **Network Policies:**
+### 121. **Network Policies:**
 
     - **Theory:**
 
@@ -221,40 +245,116 @@ Happy learning!
 
 ---
 
-1. Introduction to Kubernetes
+### 1. Introduction to Kubernetes
 
-2. Pods
+### 2. Pods
 
-3. **ReplicaSets:**
+### 3. Scalling of Pods
 
-4. **Deployments:**
+### 4. Deployments
 
-5. **Services:**
+### 5. Services
 
-6. **ConfigMaps and Secrets:**
+### 6. ConfigMaps and Secrets
 
-7. **Namespaces:**
+### 7. Namespaces
 
-8. **Persistent Volumes and Persistent Volume Claims:**
+### 8. Persistent Volumes and Persistent Volume Claims
 
-9. **StatefulSets:**
+### 9. StatefulSets
 
-10. **DaemonSets:**
+### 10. DaemonSets
 
-11. **Jobs and CronJobs:**
+### 11. **Jobs and CronJobs:**
 
-12. **Resource Quotas and LimitRange:**
+### 12. **Resource Quotas and LimitRange:**
 
-13. **Annotations and Labels:**
+### 13. **Annotations and Labels:**
 
-14. **RBAC (Role-Based Access Control):**
+### 116. **RBAC (Role-Based Access Control):**
 
-15. **Helm Charts:**
+### 117. **Helm Charts:**
 
-16. **Kustomize:**
+### 118. **Kustomize:**
 
-17. **Custom Resource Definitions (CRDs):**
+### 119. **Custom Resource Definitions (CRDs):**
 
-18. **Monitoring and Logging:**
+### 120. **Monitoring and Logging:**
 
-19. **Network Policies:**
+### 121. **Network Policies:**
+
+---
+
+# Kubernetes Book Outline
+
+## 1. Introduction to Containerization and Orchestration
+
+- Overview of container technology
+- Need for orchestration
+- Introduction to Kubernetes
+
+## 2. Getting Started with Kubernetes
+
+- Installing and setting up Kubernetes
+- Basic concepts: pods, nodes, clusters
+- Interacting with Kubernetes using `kubectl`
+
+## 3. Deploying Applications on Kubernetes
+
+- Creating and managing pods
+- Deploying a simple application
+- Scaling applications in Kubernetes
+
+## 4. Service Discovery and Load Balancing
+
+- Services in Kubernetes
+- Internal and external service communication
+- Load balancing strategies
+
+## 5. Persistent Storage in Kubernetes
+
+- Storage options in Kubernetes
+- Persistent Volumes (PV) and Persistent Volume Claims (PVC)
+- StatefulSets for stateful applications
+
+## 6. Configuring and Managing Deployments
+
+- Managing configurations with ConfigMaps and Secrets
+- Rolling updates and rollbacks
+- Canary deployments and blue-green deployments
+
+## 7. Monitoring and Logging in Kubernetes
+
+- Prometheus for monitoring
+- Logging with Fluentd and Elasticsearch
+- Debugging and troubleshooting in Kubernetes
+
+## 8. Security in Kubernetes
+
+- RBAC (Role-Based Access Control)
+- Network policies
+- Securing container images
+
+## 9. Custom Resources and Operators
+
+- Understanding CustomResourceDefinitions (CRDs)
+- Building and deploying custom controllers
+- Extending Kubernetes with custom resources
+
+## 10. Advanced Topics
+
+- Helm for package management
+- Kubernetes Federation for multi-cluster management
+- Integrating with CI/CD pipelines
+
+## 11. Best Practices and Tips
+
+- Design principles for scalable applications
+- Efficiency and resource management
+- Upgrading Kubernetes and managing dependencies
+
+## 12. Future Trends in Kubernetes
+
+- Emerging technologies and extensions
+- Kubernetes in edge computing
+- Community and ecosystem developments
