@@ -1,5 +1,7 @@
 # Simple Nginx Pod
 
+**Description**: Deploy a simple web server using a Pod manifest. Experiment with different configurations such as environment variables and commands.
+
 Step 0:- Install and configure the K8s cluster.
 
 Step 1:- Create the Manifest file
@@ -57,7 +59,7 @@ Step 4:- Expose the Nginx Pod
 kubectl expose pod example-pod --type=NodePort --port=80
 ```
 
-- relpace `example-pod` with your pod name.
+- relpace `example-pod` with your **pod name**.
 
 Step 5:- Get the NodePort
 : - Now find out the NodePort assigned to the service.

@@ -1,5 +1,7 @@
 # Multi-container Pods
 
+**Description**: Design a Pod that contains multiple containers that need to work together, demonstrating inter-container communication.
+
 ## < --- In Progress --- >
 
 Pod named "demo-2" with two containers, Nginx and Busybox. Nginx serves on port 80, and Busybox echoes a message and sleeps for an hour. Labels and annotations for organizational purposes.

@@ -2,6 +2,10 @@
 
 ## < --- In Progress --- >
 
+### 0. Prerequisites
+
+- [0.0 Topics](./Module-0/0.0-Topics.md)
+
 ### 1. Introduction to Kubernetes
 
 **Theory**
@@ -14,8 +18,8 @@
 
 **Practical**
 
-- [1.6 Setting up a K8s Cluster (local)](./Module-1/1.6-Kubernetes-Installation-using-Minikube.md)
-- [1.7 Setting up a K8s Cluster (kubeadm)](./Module-1/1.7-Kubernetes-Installation-using-kubeadm.md)
+- [P.1 Setting up a K8s Cluster (local)](./Module-1/P.1-Kubernetes-Installation-using-Minikube.md)
+- [P.2 Setting up a K8s Cluster (kubeadm)](./Module-1/P.2-Kubernetes-Installation-using-kubeadm.md)
 
 ### 2. Pods
 
@@ -24,11 +28,12 @@
 - [2.1 Kubernetes Pods](./Module-2/2.1-Kubernetes-Pod.md)
 - [2.2 Learn to write Manifests](./Module-2/2.2-write-Manifests.md)
 - [2.3 Steps to run ANY Manifest file](./Module-2/2.3-steps-to-Run-Manifests.md)
+- [2.4 Pod Topics for FUTURE](./Module-2/2.4-Pod-FUTURE.md)
 
 **Practical**
 
-- [2.4 Simple Nginx Pod](./Module-2/2.4-Simple-Nginx-Pod.md)
-- [2.5 Multi-Container Pod](./Module-2/2.5-Multi-container-pods.md)
+- [P.1 Simple Nginx Pod](./Module-2/P.1-Simple-Nginx-Pod.md)
+- [P.2 Multi-Container Pod](./Module-2/P.2-Multi-container-pods.md)
 
 ### 3. Scaling of Pods
 
@@ -38,46 +43,40 @@
 
 - [3.1.1 What's & Why's of ReplicaSets](./Module-3/3.1.1-what-why-ReplicaSets.md)
 - [3.1.2 Key Components of ReplicaSets](./Module-3/3.1.2-Key-Components-ReplicaSets.md)
-- [3.1.3 Creating ReplicaSet](./Module-3/3.1.3-Creating-ReplicaSet.md)
-
-- [3.1 ](./Module-3/3.1-.md)
+- [3.1.3 Creating ReplicaSet Manifest](./Module-3/3.1.3-Creating-ReplicaSet.md)
 
 #### 3.2 Horizontal Pod Autoscaling (HPA)
 
 - [3.2.1 Everything about HPA](./Module-3/3.2.1-what-is-HPA.md)
 
-#### 3.x Future Topics realted to Scalling
+#### 3.3 Future Topics realted to Scalling
 
-- [3.x Future Topics](./Module-3/3.x-Future-Topics.md)
-
-- [3.1 ](./Module-3/3.1-.md)
+- [3.3 Future Topics](./Module-3/3.3-Future-Topics.md)
 
 ### 4. Deployments
 
 **Theory:**
 
-- [4.1 ](./Module-4/4.1-.md)
-- [4.1 ](./Module-4/4.1-.md)
-- [4.1 ](./Module-4/4.1-.md)
-
-  - Introduce Deployments, a higher-level abstraction over ReplicaSets, providing declarative updates to applications.
-  - Learn about rolling updates, rollbacks, and other deployment strategies.
+- [4.1 What's & Why's of Deployments](./Module-4/4.1-what-why-Deployments.md)
+- [4.2 Rolling Updates and Rollbacks in Deployments](./Module-4/4.2-Rolling-Up-Rollbacks.md)
+- [4.3 Health Checks with Probes](./Module-4/4.3-Health-Checks-Probes.md)
+- [4.4 Advanced Strategies & Use Cases](./Module-4/4.4-Adv-Deployment-Strat.md)
 
 **Practical**
 
-- **Project: Scaling with ReplicaSets**
-
-  - Description: Deploy an application with ReplicaSets and observe how Kubernetes maintains the specified number of replicas.
-
-- **Project: Rolling Updates and Rollbacks**
-  - Description: Deploy a sample app, make changes to the deployment manifest, and observe rolling updates. Practice rollbacks in case of issues.
+- [P.4.1 Scaling with ReplicaSets](./Module-4/P.4.1-Scaling-ReplicaSets.md)
+- [P.4.2 Rolling Updates and Rollbacks](./Module-4/P.4.2-Rolling-Updates-Rollbacks.md)
 
 ### 5. Services
 
-- **Theory:**
+**Theory:**
 
-  - Understand Services, which enable communication between different parts of your application within a cluster.
-  - Explore ClusterIP, NodePort, and LoadBalancer types.
+- [5.1 What's & Why's of Services](./Module-5/5.1-what-why-Services.md)
+
+- Understand Services, which enable communication between different parts of your application within a cluster.
+- Explore ClusterIP, NodePort, and LoadBalancer types.
+
+**Practical**
 
 - **Project: Microservices Communication**
   - Description: Deploy two separate applications and create services to enable communication between them. Explore different service types.
