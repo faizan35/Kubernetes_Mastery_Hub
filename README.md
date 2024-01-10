@@ -72,14 +72,20 @@
 **Theory:**
 
 - [5.1 What's & Why's of Services](./Module-5/5.1-what-why-Services.md)
-
-- Understand Services, which enable communication between different parts of your application within a cluster.
-- Explore ClusterIP, NodePort, and LoadBalancer types.
+- [5.2 Types of Kubernetes Services](./Module-5/5.2-Types-of-Services.md)
+- [5.3 DNS in Kubernetes and Service Discovery](./Module-5/5.3-DNS-svc-discovery.md)
+- [5.4 "NetworkPolicies" & Security with "Ingress"](./Module-5/5.4-NetworkPolicies-Ingress.md)
+- [5.5 Future Topics](./Module-5/5.5-Future-Topics.md)
 
 **Practical**
 
-- **Project: Microservices Communication**
-  - Description: Deploy two separate applications and create services to enable communication between them. Explore different service types.
+1.  **Implement a Network Policy:**
+
+    - Create a Network Policy to control communication between different parts of your application.
+
+2.  **Set up an Ingress Controller:**
+
+    - Deploy an Ingress Controller and configure it to route external traffic to your services.
 
 ### 6. ConfigMaps and Secrets
 
