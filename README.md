@@ -79,30 +79,27 @@
 
 **Practical**
 
-1.  **Implement a Network Policy:**
-
-    - Create a Network Policy to control communication between different parts of your application.
-
-2.  **Set up an Ingress Controller:**
-
-    - Deploy an Ingress Controller and configure it to route external traffic to your services.
+- [P.5.0 Project Topics](./Module-5/P.5.0-Project-Topics.md)
+- [P.5.1 cc](./Module-5/P.5.1-cc.md)
 
 ### 6. ConfigMaps and Secrets
 
-- **Theory:**
+**Theory:**
 
-  - Learn how to use ConfigMaps for configuration data and Secrets for sensitive information.
-  - Understand how to reference them in Pod configurations.
+- [6.1 Intro](./Module-6/6.1-intro.md)
+- [6.2 Creating ConfigMaps](./Module-6/6.2-ConfigMaps.md)
+- [6.3 Creating Secrets](./Module-6/6.3-Secrets.md)
 
-- **Project: Configuring Applications**
-  - Description: Externalize configuration using ConfigMaps and store sensitive information such as database credentials using Secrets.
+**Practical**
+
+- [P.6.0 Project Topics](./Module-6/P.6.0-Project-Topics.md)
 
 ### 7. Namespaces
 
-- **Theory:**
+**Theory:**
 
-  - Explore Namespaces to create isolated environments within a cluster.
-  - Understand how to organize and segregate resources using Namespaces.
+- Explore Namespaces to create isolated environments within a cluster.
+- Understand how to organize and segregate resources using Namespaces.
 
 - **Project: Multi-Environment Cluster**
   - Description: Use Namespaces to create distinct environments (e.g., development, staging, production) within a single Kubernetes cluster.
