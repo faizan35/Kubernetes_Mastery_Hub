@@ -98,11 +98,12 @@
 
 **Theory:**
 
-- Explore Namespaces to create isolated environments within a cluster.
-- Understand how to organize and segregate resources using Namespaces.
+- [7.1 Overview of Namespaces](./Module-7/7.1-Overview-Namespaces.md)
+- [7.2 Creating Namespaces](./Module-7/7.2-Creating-Namespaces.md)
 
-- **Project: Multi-Environment Cluster**
-  - Description: Use Namespaces to create distinct environments (e.g., development, staging, production) within a single Kubernetes cluster.
+**Practical**
+
+- [P.7.0 Project Topics](./Module-7/P.7.0-Project-Topics.md)
 
 ### 8. Persistent Volumes and Persistent Volume Claims
 
