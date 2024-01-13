@@ -107,18 +107,15 @@
 
 ### 8. Persistent Volumes and Persistent Volume Claims
 
-- **Theory:**
+**Theory:**
 
-  - Discover how to define persistent storage in Kubernetes.
-  - Learn about Persistent Volumes (PVs) and Persistent Volume Claims (PVCs).
+- [8.1 Volumes in Kubernetes](./Module-8/8.1-Storage-Kubernetes.md)
+- [8.2 PVs, PVCs and Storage Classes](./Module-8/8.2-PVs-PVCs.md)
+- [8.3 Advanced Topics](./Module-8/8.3-Advanced-Topics.md)
 
-- **Project: Persistent Storage for Database**
-  - Description: Deploy a database with persistent storage using Persistent Volumes and Persistent Volume Claims.
+**Practical**
 
-**extra**
-
-- **Project: Multi-Container Pod**
-  - Description: Design a Pod that contains multiple containers that need to work together, demonstrating inter-container communication.
+- [P.8.0 Project Topics](./Module-8/P.8.0-Project-Topics.md)
 
 ### 9. StatefulSets
 
