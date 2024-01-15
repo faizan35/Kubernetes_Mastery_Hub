@@ -119,12 +119,17 @@
 
 ### 9. StatefulSets
 
-- **Theory:**
+**Theory:**
 
-  - Explore StatefulSets for stateful applications that require stable network identities and persistent storage.
+- [9.1 What's and Why's StatefulSets](./Module-9/9.1-What-StatefulSets.md)
+- [9.2 Stable Network Identifiers](./Module-9/9.2-Stable-Network-Identifiers.md)
+- [9.3 Role of Persistent Storage in StatefulSets](./Module-9/9.3-Persistent-Storage-StatefulSets.md)
+- [9.4 Creating StatefulSets](./Module-9/9.4-Creating-StatefulSets.md)
+- [9.4 Creating StatefulSets](./Module-9/zzzzzzzzzzzzz.md)
 
-- **Project: Stateful Application Deployment**
-  - Description: Deploy a stateful application using StatefulSets, ensuring stable network identities and persistent storage.
+**Practical**
+
+- [P.9.0 Project Topics](./Module-9/P.9.0-Project-Topics.md)
 
 ### 10. DaemonSets
 
