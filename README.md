@@ -30,6 +30,15 @@
 - [2.3 Steps to run ANY Manifest file](./Module-2/2.3-steps-to-Run-Manifests.md)
 - [2.4 Pod Topics for FUTURE](./Module-2/2.4-Pod-FUTURE.md)
 
+**Annotations and Labels:**
+
+- **Theory:**
+
+  - Understand the importance of annotations and labels for organizing and managing resources.
+
+- **Project: Resource Organization**
+  - Description: Apply labels and annotations to various objects in your cluster for organizational purposes and observe their impact.
+
 **Practical**
 
 - [P.1 Simple Nginx Pod](./Module-2/P.1-Simple-Nginx-Pod.md)
@@ -149,53 +158,9 @@
 
   - Learn about Jobs for running one-off tasks and CronJobs for scheduled tasks.
 
-- **Project: Scheduled Tasks**
-  - Description: Create a Job to perform a one-off task and a CronJob to schedule tasks at specified intervals.
+**Practical**
 
-### 12. **Resource Quotas and LimitRange:**
-
-- **Theory:**
-
-  - Explore resource management in Kubernetes using Resource Quotas and LimitRange.
-
-- **Project: Resource Management**
-  - Description: Set up Resource Quotas to limit resource usage in a Namespace. Experiment with LimitRange to restrict container resource limits.
-
-### 13. **Annotations and Labels:**
-
-- **Theory:**
-
-  - Understand the importance of annotations and labels for organizing and managing resources.
-
-- **Project: Resource Organization**
-  - Description: Apply labels and annotations to various objects in your cluster for organizational purposes and observe their impact.
-
-### 116. **RBAC (Role-Based Access Control):**
-
-- **Theory:**
-
-  - Learn about RBAC to control access to resources within a cluster.
-
-- **Project: User Access Management**
-  - Description: Implement RBAC to control user access to resources within a Namespace. Create roles and role bindings accordingly.
-
-### 117. **Helm Charts:**
-
-- **Theory:**
-
-  - Introduce Helm, a package manager for Kubernetes, and understand how to use Helm charts to define, install, and upgrade even the most complex Kubernetes applications.
-
-- **Project: Helm Chart for Application**
-  - Description: Package your application using Helm charts. Include configurations, dependencies, and versioning in the Helm chart.
-
-### 118. **Kustomize:**
-
-- **Theory:**
-
-  - Explore Kustomize, a built-in customization mechanism in Kubernetes, for creating and managing manifests more efficiently.
-
-- **Project: Custom Manifests with Kustomize**
-  - Description: Use Kustomize to customize Kubernetes manifests for different environments without modifying the original files.
+- [P.11.1 Practical Exercises - Jobs](./Module-11/P.11.1-Practical-Jobs.md)
 
 ### 119. **Custom Resource Definitions (CRDs):**
 
@@ -223,6 +188,50 @@
 
 - **Project: Network Segmentation**
   - Description: Implement Network Policies to control the flow of traffic between Pods in different Namespaces, ensuring a secure network environment.
+
+---
+
+## Tools
+
+### 117. **Helm Charts:**
+
+- **Theory:**
+
+  - Introduce Helm, a package manager for Kubernetes, and understand how to use Helm charts to define, install, and upgrade even the most complex Kubernetes applications.
+
+- **Project: Helm Chart for Application**
+  - Description: Package your application using Helm charts. Include configurations, dependencies, and versioning in the Helm chart.
+
+### 118. **Kustomize:**
+
+- **Theory:**
+
+  - Explore Kustomize, a built-in customization mechanism in Kubernetes, for creating and managing manifests more efficiently.
+
+- **Project: Custom Manifests with Kustomize**
+  - Description: Use Kustomize to customize Kubernetes manifests for different environments without modifying the original files.
+
+---
+
+## Extra
+
+### 12. **Resource Quotas and LimitRange:**
+
+- **Theory:**
+
+  - Explore resource management in Kubernetes using Resource Quotas and LimitRange.
+
+- **Project: Resource Management**
+  - Description: Set up Resource Quotas to limit resource usage in a Namespace. Experiment with LimitRange to restrict container resource limits.
+
+### 116. **RBAC (Role-Based Access Control):**
+
+- **Theory:**
+
+  - Learn about RBAC to control access to resources within a cluster.
+
+- **Project: User Access Management**
+  - Description: Implement RBAC to control user access to resources within a Namespace. Create roles and role bindings accordingly.
 
 ---
 
