@@ -155,6 +155,7 @@
 **Theory:**
 
 - [11.1 Introduction to Jobs](./Module-11/11.1-Introduction-Jobs.md)
+- [11.2 Introduction to Cronjobs](./Module-11/11.2-Introduction-Cronjobs.md)
 
   - Learn about Jobs for running one-off tasks and CronJobs for scheduled tasks.
 
@@ -162,47 +163,33 @@
 
 - [P.11.1 Practical Exercises - Jobs](./Module-11/P.11.1-Practical-Jobs.md)
 
-### 119. **Custom Resource Definitions (CRDs):**
+### 12. **Custom Resource Definitions (CRDs):**
 
-- **Theory:**
+**Theory:**
+
+- [12.1 Introduction to CRDs](./Module-12/12.1-Introduction-CRDs.md)
 
   - Understand how to extend Kubernetes API using Custom Resource Definitions to define custom resources and controllers.
 
 - **Project: Custom Resource and Controller**
   - Description: Define a custom resource using CRDs and implement a controller to manage the lifecycle of the custom resource.
 
-### 120. **Monitoring and Logging:**
-
-- **Theory:**
-
-  - Learn how to set up monitoring and logging for your Kubernetes cluster, exploring tools like Prometheus and Grafana.
-
-- **Project: Monitoring Setup with Prometheus and Grafana**
-  - Description: Set up Prometheus for monitoring and Grafana for visualization. Create dashboards to monitor key metrics of your applications.
-
-### 121. **Network Policies:**
-
-- **Theory:**
-
-  - Explore Network Policies to control the communication between Pods in a cluster.
-
-- **Project: Network Segmentation**
-  - Description: Implement Network Policies to control the flow of traffic between Pods in different Namespaces, ensuring a secure network environment.
-
 ---
 
 ## Tools
 
-### 117. **Helm Charts:**
+### 13. **Helm Charts:**
 
-- **Theory:**
+**Theory:**
+
+- [13.1 Introduction to Helm](./Module-13/13.1-Introduction-Helm.md)
 
   - Introduce Helm, a package manager for Kubernetes, and understand how to use Helm charts to define, install, and upgrade even the most complex Kubernetes applications.
 
 - **Project: Helm Chart for Application**
   - Description: Package your application using Helm charts. Include configurations, dependencies, and versioning in the Helm chart.
 
-### 118. **Kustomize:**
+### 14. **Kustomize:**
 
 - **Theory:**
 
