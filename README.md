@@ -174,35 +174,7 @@
 - **Project: Custom Resource and Controller**
   - Description: Define a custom resource using CRDs and implement a controller to manage the lifecycle of the custom resource.
 
----
-
-## Tools
-
-### 13. **Helm Charts:**
-
-**Theory:**
-
-- [13.1 Introduction to Helm](./Module-13/13.1-Introduction-Helm.md)
-
-  - Introduce Helm, a package manager for Kubernetes, and understand how to use Helm charts to define, install, and upgrade even the most complex Kubernetes applications.
-
-- **Project: Helm Chart for Application**
-  - Description: Package your application using Helm charts. Include configurations, dependencies, and versioning in the Helm chart.
-
-### 14. **Kustomize:**
-
-- **Theory:**
-
-  - Explore Kustomize, a built-in customization mechanism in Kubernetes, for creating and managing manifests more efficiently.
-
-- **Project: Custom Manifests with Kustomize**
-  - Description: Use Kustomize to customize Kubernetes manifests for different environments without modifying the original files.
-
----
-
-## Extra
-
-### 12. **Resource Quotas and LimitRange:**
+### 13. **Resource Quotas and LimitRange:**
 
 - **Theory:**
 
@@ -211,7 +183,7 @@
 - **Project: Resource Management**
   - Description: Set up Resource Quotas to limit resource usage in a Namespace. Experiment with LimitRange to restrict container resource limits.
 
-### 116. **RBAC (Role-Based Access Control):**
+### 14. **RBAC (Role-Based Access Control):**
 
 - **Theory:**
 
@@ -219,6 +191,32 @@
 
 - **Project: User Access Management**
   - Description: Implement RBAC to control user access to resources within a Namespace. Create roles and role bindings accordingly.
+
+---
+
+## Tools
+
+### T1. **Helm Charts:**
+
+**Theory:**
+
+- [T1.0 Helm Syllabus](./Module-T1/T1.0-Helm-Syllabus.md)
+- [T1.1 Introduction to Helm](./Module-T1/T1.1-Introduction-Helm.md)
+- [T1.2 Installation and Setup](./Module-T1/T1.2-Helm-Installation-Setup.md)
+- [T1.3 Commands & Structure](./Module-T1/T1.3-Helm-Basics.md)
+- [T1.4 Chart Repositories](./Module-T1/T1.4-Chart-Repositories.md)
+
+- **Project: Helm Chart for Application**
+  - Description: Package your application using Helm charts. Include configurations, dependencies, and versioning in the Helm chart.
+
+### T2. **Kustomize:**
+
+- **Theory:**
+
+  - Explore Kustomize, a built-in customization mechanism in Kubernetes, for creating and managing manifests more efficiently.
+
+- **Project: Custom Manifests with Kustomize**
+  - Description: Use Kustomize to customize Kubernetes manifests for different environments without modifying the original files.
 
 ---
 
