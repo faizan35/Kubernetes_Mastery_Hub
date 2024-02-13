@@ -205,7 +205,7 @@ sudo kubeadm token create --print-join-command
 - The `--print-join-command` option displays the command that should be run on worker nodes to join them to the Kubernetes cluster.
 - The output includes a token and the IP address or DNS name of the control-plane node.
 
-##### 5. Expose port 6443 in the Security group for the Worker to connect to Master Node
+##### 5. Expose port 6443 in the Security group for the Worker Node Only, to connect to Master Node
 
 - please confirm in AWS, currently allowing only in master worked in VM's.
 
