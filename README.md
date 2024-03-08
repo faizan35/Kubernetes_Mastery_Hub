@@ -1,10 +1,23 @@
-# KubernetesMasteryHub
+# Kubernetes Mastery Hub
 
 ## < --- In Progress --- >
 
+### 0. Pre Kubernetes
+
+- [0.1 Distributed system & CAP Theorem](./Module-0/0.1-Distributed-system.md)
+- [0.2 Authentication & Authorization](./Module-0/0.2-Authentication-Authorization.md)
+- [0.3 Key Value Store](./Module-0/0.3-Key-Value-Store.md)
+- [0.4 API - RESTful APIs and gRPC APIs](./Module-0/0.4-API.md)
+- [0.5 Basics YAML Syntax](./Module-0/0.5-Basics-YAML-Syntax.md)
+- [0.6 Container - Docker, Podman, OCI, CRI](./Module-0/0.6-Container.md)
+- [0.7 Service Discovery - client-side & server-side](./Module-0/0.7-Service-Discovery.md)
+- [0.8 Networking Basis](./Module-0/0.8-Networking-Basis.md)
+
+---
+
 ### 0. Prerequisites
 
-- [0.0 Topics](./Module-0/0.0-Topics.md)
+- [0.0 Topics](./oModule-0/0.0-Topics.md)
 
 ### 1. Introduction to Kubernetes
 
@@ -14,7 +27,7 @@
 - [1.2 Kubernetes Architecture](./Module-1/1.2-kubernetes-architecture.md)
 - [1.3 Kubernetes Workflow](./Module-1/1.3-Kubernetes-Workflow.md)
 - [1.4 Kubernetes Object](./Module-1/1.4-Kubernetes-Object.md)
-- [1.5 Basics YAML Syntax.md](./Module-1/1.5-Basics-YAML-Syntax.md)
+- [1.5 Basics YAML Syntax](./Module-1/1.5-Basics-YAML-Syntax.md)
 
 **Practical**
 
@@ -244,45 +257,5 @@ Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a positive 
 This project is licensed under the [MIT License](LICENSE).
 
 Happy learning!
-
----
-
-### 1. Introduction to Kubernetes
-
-### 2. Pods
-
-### 3. Scalling of Pods
-
-### 4. Deployments
-
-### 5. Services
-
-### 6. ConfigMaps and Secrets
-
-### 7. Namespaces
-
-### 8. Persistent Volumes and Persistent Volume Claims
-
-### 9. StatefulSets
-
-### 10. DaemonSets
-
-### 11. **Jobs and CronJobs:**
-
-### 12. **Resource Quotas and LimitRange:**
-
-### 13. **Annotations and Labels:**
-
-### 116. **RBAC (Role-Based Access Control):**
-
-### 117. **Helm Charts:**
-
-### 118. **Kustomize:**
-
-### 119. **Custom Resource Definitions (CRDs):**
-
-### 120. **Monitoring and Logging:**
-
-### 121. **Network Policies:**
 
 ---
