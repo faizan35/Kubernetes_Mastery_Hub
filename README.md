@@ -18,7 +18,8 @@
 - [1.1 What is Kubernetes?](./Module-1/1.1-What-is-Kubernetes.md)
 - [1.2 Kubernetes Architecture](./Module-1/1.2-kubernetes-architecture.md)
 - [1.3 Kubernetes Workflow](./Module-1/1.3-Kubernetes-Workflow.md)
-- [1.4 Kubernetes Object](./Module-1/1.4-Kubernetes-Object.md)
+- [1.4 Kubeconfig File](./Module-1/1.4-Kubeconfig-File.md)
+- [1.5 Kubernetes Object](./Module-1/1.5-Kubernetes-Object.md)
 
 - [P.1 Setting up a K8s Cluster (local)](./Module-1/P.1-Kubernetes-Installation-using-Minikube.md)
 - [P.2 Setting up a K8s Cluster (kubeadm)](./Module-1/P.2-Kubernetes-Installation-using-kubeadm.md)
