@@ -42,3 +42,7 @@ If the thing that created a pod (resources) is gone (like a parent), and the pod
 External services connect to a cluster through methods like load balancers, service discovery, Ingress controllers (in Kubernetes), NodePort, assigning external IPs, VPNs, direct connections, and API gateways. The choice depends on factors like security and scalability.
 
 ---
+
+### What is a headless service.?
+
+service that dose not have type mentioned in its service.yml
