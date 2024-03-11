@@ -24,35 +24,18 @@
 - [P.1 Setting up a K8s Cluster (local)](./Module-1/P.1-Kubernetes-Installation-using-Minikube.md)
 - [P.2 Setting up a K8s Cluster (kubeadm)](./Module-1/P.2-Kubernetes-Installation-using-kubeadm.md)
 
----
+### Workloads Objects
 
-### 0. Prerequisites
-
-- [0.0 Topics](./oModule-0/0.0-Topics.md)
-
-### 1. Introduction to Kubernetes
-
-**Theory**
-
-- [1.1 What is Kubernetes?](./Module-1/1.1-What-is-Kubernetes.md)
-- [1.2 Kubernetes Architecture](./Module-1/1.2-kubernetes-architecture.md)
-- [1.3 Kubernetes Workflow](./Module-1/1.3-Kubernetes-Workflow.md)
-- [1.4 Kubernetes Object](./Module-1/1.4-Kubernetes-Object.md)
-- [1.5 Basics YAML Syntax](./Module-1/1.5-Basics-YAML-Syntax.md)
-
-**Practical**
-
-- [P.1 Setting up a K8s Cluster (local)](./Module-1/P.1-Kubernetes-Installation-using-Minikube.md)
-- [P.2 Setting up a K8s Cluster (kubeadm)](./Module-1/P.2-Kubernetes-Installation-using-kubeadm.md)
+#### [Pods](./Module-2/2.1-Pod.md)
 
 ### 2. Pods
 
 **Theory**
 
-- [2.1 Kubernetes Pods](./Module-2/2.1-Kubernetes-Pod.md)
-- [2.2 Learn to write Manifests](./Module-2/2.2-write-Manifests.md)
-- [2.3 Steps to run ANY Manifest file](./Module-2/2.3-steps-to-Run-Manifests.md)
-- [2.4 Pod Topics for FUTURE](./Module-2/2.4-Pod-FUTURE.md)
+- [2.1 Kubernetes Pods](./Module-2-o/2.1-Kubernetes-Pod.md)
+- [2.2 Learn to write Manifests](./Module-2-o/2.2-write-Manifests.md)
+- [2.3 Steps to run ANY Manifest file](./Module-2-o/2.3-steps-to-Run-Manifests.md)
+- [2.4 Pod Topics for FUTURE](./Module-2-o/2.4-Pod-FUTURE.md)
 
 **Annotations and Labels:**
 
@@ -67,6 +50,16 @@
 
 - [P.1 Simple Nginx Pod](./Module-2/P.1-Simple-Nginx-Pod.md)
 - [P.2 Multi-Container Pod](./Module-2/P.2-Multi-container-pods.md)
+
+### Configuration Objects
+
+### Network Objects
+
+### Storage Objects
+
+### Access Control Objects
+
+---
 
 ### 3. Scaling of Pods
 
