@@ -1,6 +1,6 @@
 # Pods
 
-Official k8s Docs: https://kubernetes.io/docs/concepts/workloads/pods/
+**Official k8s Docs:** https://kubernetes.io/docs/concepts/workloads/pods/
 
 #### files -> image -> container -> pod
 

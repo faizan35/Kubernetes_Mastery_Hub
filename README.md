@@ -34,15 +34,17 @@
 - [P.1 Simple Nginx Pod](./Module-2/01-Pods/P.1-Simple-Nginx-Pod.md)
 - [P.2 Multi-Container Pod](./Module-2/01-Pods/P.2-Multi-container-pods.md)
 
-#### 2.2 Deployment
+#### 2.2 ReplicaSets
 
-- [1. What's & Why's of Deployments](./Module-2/02-Deployment/01-what-why-Deployments.md)
-- [2. Rolling Updates and Rollbacks in Deployments](./Module-2/02-Deployment/02-Rolling-Up-Rollbacks.md)
-- [3. Health Checks with Probes](./Module-2/02-Deployment/03-Health-Checks-Probes.md)
-- [4. Advanced Strategies & Use Cases](./Module-2/02-Deployment/04-Adv-Deployment-Strat.md)
+#### 2.3 Deployment
 
-- [P.4.1 Scaling with ReplicaSets](./Module-2/02-Deployment/P.1-Scaling-ReplicaSets.md)
-- [P.4.2 Rolling Updates and Rollbacks](./Module-2/02-Deployment/P.2-Rolling-Updates-Rollbacks.md)
+- [1. What's & Why's of Deployments](./Module-2/03-Deployment/01-what-why-Deployments.md)
+- [2. Rolling Updates and Rollbacks in Deployments](./Module-2/03-Deployment/02-Rolling-Up-Rollbacks.md)
+- [3. Health Checks with Probes](./Module-2/03-Deployment/03-Health-Checks-Probes.md)
+- [4. Advanced Strategies & Use Cases](./Module-2/03-Deployment/04-Adv-Deployment-Strat.md)
+
+- [P.4.1 Scaling with ReplicaSets](./Module-2/03-Deployment/P.1-Scaling-ReplicaSets.md)
+- [P.4.2 Rolling Updates and Rollbacks](./Module-2/03-Deployment/P.2-Rolling-Updates-Rollbacks.md)
 
 ### Configuration Objects
 
