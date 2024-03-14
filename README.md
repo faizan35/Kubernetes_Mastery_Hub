@@ -36,6 +36,9 @@
 
 #### 2.2 ReplicaSets
 
+- [1. ReplicaSets](./Module-2/02-ReplicaSets/01-ReplicaSets.md)
+- [2. Interview Questions](./Module-2/02-ReplicaSets/02-Interview-Questions.md)
+
 #### 2.3 Deployment
 
 - [1. What's & Why's of Deployments](./Module-2/03-Deployment/01-what-why-Deployments.md)
@@ -60,12 +63,6 @@
 
 #### 3.1 ReplicaSets
 
-**Theory**
-
-- [3.1.1 What's & Why's of ReplicaSets](./Module-3/3.1.1-what-why-ReplicaSets.md)
-- [3.1.2 Key Components of ReplicaSets](./Module-3/3.1.2-Key-Components-ReplicaSets.md)
-- [3.1.3 Creating ReplicaSet Manifest](./Module-3/3.1.3-Creating-ReplicaSet.md)
-
 #### 3.2 Horizontal Pod Autoscaling (HPA)
 
 - [3.2.1 Everything about HPA](./Module-3/3.2.1-what-is-HPA.md)
@@ -73,20 +70,6 @@
 #### 3.3 Future Topics realted to Scalling
 
 - [3.3 Future Topics](./Module-3/3.3-Future-Topics.md)
-
-### 4. Deployments
-
-**Theory:**
-
-- [4.1 What's & Why's of Deployments](./Module-4/4.1-what-why-Deployments.md)
-- [4.2 Rolling Updates and Rollbacks in Deployments](./Module-4/4.2-Rolling-Up-Rollbacks.md)
-- [4.3 Health Checks with Probes](./Module-4/4.3-Health-Checks-Probes.md)
-- [4.4 Advanced Strategies & Use Cases](./Module-4/4.4-Adv-Deployment-Strat.md)
-
-**Practical**
-
-- [P.4.1 Scaling with ReplicaSets](./Module-4/P.4.1-Scaling-ReplicaSets.md)
-- [P.4.2 Rolling Updates and Rollbacks](./Module-4/P.4.2-Rolling-Updates-Rollbacks.md)
 
 ### 5. Services
 
