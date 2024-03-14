@@ -27,19 +27,19 @@
 
 ### 2. Workloads Objects
 
-#### 2.1 Pods
+#### 2.1. Pods
 
 - [1. Pods](./Module-2/01-Pods/01-Pod.md)
 
 - [P.1 Simple Nginx Pod](./Module-2/01-Pods/P.1-Simple-Nginx-Pod.md)
 - [P.2 Multi-Container Pod](./Module-2/01-Pods/P.2-Multi-container-pods.md)
 
-#### 2.2 ReplicaSets
+#### 2.2. ReplicaSets
 
 - [1. ReplicaSets](./Module-2/02-ReplicaSets/01-ReplicaSets.md)
 - [2. Interview Questions](./Module-2/02-ReplicaSets/02-Interview-Questions.md)
 
-#### 2.3 Deployment
+#### 2.3. Deployment
 
 - [1. What's & Why's of Deployments](./Module-2/03-Deployment/01-what-why-Deployments.md)
 - [2. Rolling Updates and Rollbacks in Deployments](./Module-2/03-Deployment/02-Rolling-Up-Rollbacks.md)
@@ -48,6 +48,29 @@
 
 - [P.4.1 Scaling with ReplicaSets](./Module-2/03-Deployment/P.1-Scaling-ReplicaSets.md)
 - [P.4.2 Rolling Updates and Rollbacks](./Module-2/03-Deployment/P.2-Rolling-Updates-Rollbacks.md)
+
+#### 2.4. StatefulSets
+
+- [1. What's and Why's StatefulSets](./Module-2/04-StatefulSets/9.1-What-StatefulSets.md)
+- [2. Stable Network Identifiers](./Module-2/04-StatefulSets/9.2-Stable-Network-Identifiers.md)
+- [3. Role of Persistent Storage in StatefulSets](./Module-2/04-StatefulSets/9.3-Persistent-Storage-StatefulSets.md)
+- [4. Creating StatefulSets](./Module-2/04-StatefulSets/9.4-Creating-StatefulSets.md)
+- [5. Headless Services](./Module-2/04-StatefulSets/9.5-Headless-Services.md)
+- [6. Interview Questions](./Module-2/04-StatefulSets/9.6-Interview-Questions.md)
+
+- [P.0 Project Topics](./Module-2/04-StatefulSets/P.9.0-Project-Topics.md)
+
+### 2.5. DaemonSets
+
+**Theory:**
+
+- [10.1 What's and Why's DaemonSets](./Module-2/05-DaemonSets/10.1-What-DaemonSets.md)
+- [10.2 Creating DaemonSet](./Module-2/05-DaemonSets/10.2-creating-DaemonSets.md)
+
+- **Project: System Daemons Deployment**
+  - Description: Deploy a DaemonSet to ensure that a specific Pod runs on every node in the cluster.
+
+--=
 
 ### Configuration Objects
 
@@ -120,30 +143,6 @@
 **Practical**
 
 - [P.8.0 Project Topics](./Module-8/P.8.0-Project-Topics.md)
-
-### 9. StatefulSets
-
-**Theory:**
-
-- [9.1 What's and Why's StatefulSets](./Module-9/9.1-What-StatefulSets.md)
-- [9.2 Stable Network Identifiers](./Module-9/9.2-Stable-Network-Identifiers.md)
-- [9.3 Role of Persistent Storage in StatefulSets](./Module-9/9.3-Persistent-Storage-StatefulSets.md)
-- [9.4 Creating StatefulSets](./Module-9/9.4-Creating-StatefulSets.md)
-- [9.5 Headless Services](./Module-9/9.5-Headless-Services.md)
-
-**Practical**
-
-- [P.9.0 Project Topics](./Module-9/P.9.0-Project-Topics.md)
-
-### 10. DaemonSets
-
-**Theory:**
-
-- [10.1 What's and Why's DaemonSets](./Module-10/10.1-What-DaemonSets.md)
-- [10.2 Creating DaemonSet](./Module-10/10.2-creating-DaemonSets.md)
-
-- **Project: System Daemons Deployment**
-  - Description: Deploy a DaemonSet to ensure that a specific Pod runs on every node in the cluster.
 
 ### 11. **Jobs and CronJobs:**
 

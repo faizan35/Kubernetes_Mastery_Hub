@@ -45,7 +45,7 @@ External services connect to a cluster through methods like load balancers, serv
 
 ### What is a headless service.?
 
-service that dose not have type mentioned in its service.yml
+service that dose not have **type** mentioned in its service.yml
 
 ---
 
