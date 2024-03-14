@@ -6,7 +6,7 @@
 
 - <h4 style="display: inline;">Deployments</h4> is a declarative way to <h5 style="display: inline;">automate and manage the containerized applications</h5> to maintain a specified desired state, through ReplicaSet.
 
-- Its <u>**abstraction layer above ReplicaSets**</u>, providing declarative updates, rolling updates, and rollbacks.
+- Deployments are <u>**abstraction layer above ReplicaSets**</u>, providing declarative updates, rolling updates, and rollbacks.
 
 abstraction layer above ReplicaSets
 : You just describing/write the desired state, and Kubernetes takes care of achieving and maintaining that state.
