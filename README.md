@@ -93,6 +93,14 @@
 
 ### Policies
 
+#### 4.1. LimitRange
+
+- [1. LimitRange](./Module-4/01-Limit-Ranges/01-Limit-Ranges.md)
+
+#### 4.2. ResourceQuota
+
+- [1. ResourceQuota](./Module-4/02-ResourceQuota/01-ResourceQuota.md)
+
 ---
 
 ### Network Objects
