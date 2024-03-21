@@ -62,9 +62,10 @@
 
 ### 2.5. DaemonSets
 
-- [10.1 What's and Why's DaemonSets](./Module-2/05-DaemonSets/10.1-What-DaemonSets.md)
-- [10.2 Creating DaemonSet](./Module-2/05-DaemonSets/10.2-creating-DaemonSets.md)
-- [10.3 Node Affinity and Anti-Affinity](./Module-2/05-DaemonSets/10.3-Node-Affinity-Anti-Affinity.md)
+- [1. What's and Why's DaemonSets](./Module-2/05-DaemonSets/10.1-What-DaemonSets.md)
+- [2. Creating DaemonSet](./Module-2/05-DaemonSets/10.2-creating-DaemonSets.md)
+- [3. Node Affinity and Anti-Affinity](./Module-2/05-DaemonSets/10.3-Node-Affinity-Anti-Affinity.md)
+- [4. Interview Questions](./Module-2/05-DaemonSets/10.4-Interview-Questions.md)
 
 ---
 
