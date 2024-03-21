@@ -79,17 +79,25 @@
 
 - [1. ReplicationController](./Module-2/08-ReplicationController/1-ReplicationController.md)
 
-### Configuration Objects
+### 3. Services, Load Balancing, and Networking
 
-#### 3.1. ConfigMaps
+### 4. Storage
+
+### 5. Configuration
+
+#### 5.1. ConfigMaps
 
 - [1. ConfigMaps](./Module-3/01-ConfigMaps/01-ConfigMaps.md)
 - [2. Creating ConfigMaps](./Module-3/01-ConfigMaps/02-Creating-ConfigMaps.md)
 
-#### 3.2. Secret
+#### 5.2. Secret
 
 - [1. Secret](./Module-3/02-Secret/01-Secret.md)
 - [2. Creating Secret](./Module-3/02-Secret/02-Creating-Secret.md)
+
+### 6.
+
+---
 
 ### Policies
 
