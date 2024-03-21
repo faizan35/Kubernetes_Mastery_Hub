@@ -60,24 +60,40 @@
 
 - [P.0 Project Topics](./Module-2/04-StatefulSets/P.9.0-Project-Topics.md)
 
-### 2.5. DaemonSets
+#### 2.5. DaemonSets
 
 - [1. What's and Why's DaemonSets](./Module-2/05-DaemonSets/10.1-What-DaemonSets.md)
 - [2. Creating DaemonSet](./Module-2/05-DaemonSets/10.2-creating-DaemonSets.md)
 - [3. Node Affinity and Anti-Affinity](./Module-2/05-DaemonSets/10.3-Node-Affinity-Anti-Affinity.md)
 - [4. Interview Questions](./Module-2/05-DaemonSets/10.4-Interview-Questions.md)
 
-### 2.6. **Jobs**
+#### 2.6. **Jobs**
 
 - [1. Introduction to Jobs](./Module-2/06-Jobs/11.1-Introduction-Jobs.md)
 
-### 2.7. **CronJobs**
+#### 2.7. **CronJobs**
 
 - [1. Introduction to Cronjobs](./Module-2/07-CronJobs/11.2-Introduction-Cronjobs.md)
 
----
+#### 2.8. **ReplicationController (Not Recommended)**
+
+- [1. ReplicationController](./Module-2/08-ReplicationController/1-ReplicationController.md)
 
 ### Configuration Objects
+
+#### 3.1. ConfigMaps
+
+- [1. ConfigMaps](./Module-3/01-ConfigMaps/01-ConfigMaps.md)
+- [2. Creating ConfigMaps](./Module-3/01-ConfigMaps/02-Creating-ConfigMaps.md)
+
+#### 3.2. Secret
+
+- [1. Secret](./Module-3/02-Secret/01-Secret.md)
+- [2. Creating Secret](./Module-3/02-Secret/02-Creating-Secret.md)
+
+### Policies
+
+---
 
 ### Network Objects
 
@@ -113,18 +129,6 @@
 
 - [P.5.0 Project Topics](./Module-5/P.5.0-Project-Topics.md)
 - [P.5.1 cc](./Module-5/P.5.1-cc.md)
-
-### 6. ConfigMaps and Secrets
-
-**Theory:**
-
-- [6.1 Intro](./Module-6/6.1-intro.md)
-- [6.2 Creating ConfigMaps](./Module-6/6.2-ConfigMaps.md)
-- [6.3 Creating Secrets](./Module-6/6.3-Secrets.md)
-
-**Practical**
-
-- [P.6.0 Project Topics](./Module-6/P.6.0-Project-Topics.md)
 
 ### 7. Namespaces
 
