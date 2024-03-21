@@ -67,6 +67,14 @@
 - [3. Node Affinity and Anti-Affinity](./Module-2/05-DaemonSets/10.3-Node-Affinity-Anti-Affinity.md)
 - [4. Interview Questions](./Module-2/05-DaemonSets/10.4-Interview-Questions.md)
 
+### 2.6. **Jobs**
+
+- [1. Introduction to Jobs](./Module-2/06-Jobs/11.1-Introduction-Jobs.md)
+
+### 2.7. **CronJobs**
+
+- [1. Introduction to Cronjobs](./Module-2/07CronJobs/11.2-Introduction-Cronjobs.md)
+
 ---
 
 ### Configuration Objects
@@ -140,19 +148,6 @@
 **Practical**
 
 - [P.8.0 Project Topics](./Module-8/P.8.0-Project-Topics.md)
-
-### 11. **Jobs and CronJobs:**
-
-**Theory:**
-
-- [11.1 Introduction to Jobs](./Module-11/11.1-Introduction-Jobs.md)
-- [11.2 Introduction to Cronjobs](./Module-11/11.2-Introduction-Cronjobs.md)
-
-  - Learn about Jobs for running one-off tasks and CronJobs for scheduled tasks.
-
-**Practical**
-
-- [P.11.1 Practical Exercises - Jobs](./Module-11/P.11.1-Practical-Jobs.md)
 
 ### 12. **Custom Resource Definitions (CRDs):**
 
