@@ -13,6 +13,8 @@ Here's why you might choose ReplicaSets over ReplicationControllers:
 | Deletion Safety            | Basic                  | Supports `minReadySeconds` for safe updates    |
 | Future Compatibility       | Legacy                 | Actively maintained and improved in Kubernetes |
 
+> **Note:** A Deployment that configures a ReplicaSet is now the recommended way to set up replication.
+
 ---
 
 ## What is a ReplicationController?
