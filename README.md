@@ -62,15 +62,11 @@
 
 ### 2.5. DaemonSets
 
-**Theory:**
-
 - [10.1 What's and Why's DaemonSets](./Module-2/05-DaemonSets/10.1-What-DaemonSets.md)
 - [10.2 Creating DaemonSet](./Module-2/05-DaemonSets/10.2-creating-DaemonSets.md)
+- [10.3 Node Affinity and Anti-Affinity](./Module-2/05-DaemonSets/10.3-Node-Affinity-Anti-Affinity.md)
 
-- **Project: System Daemons Deployment**
-  - Description: Deploy a DaemonSet to ensure that a specific Pod runs on every node in the cluster.
-
---=
+---
 
 ### Configuration Objects
 
