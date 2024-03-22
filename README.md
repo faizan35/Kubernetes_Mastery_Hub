@@ -98,6 +98,15 @@
 
 ### 4. Storage
 
+#### 4.1. Volumes
+
+- [1. Volumes in Kubernetes](./Module-4/01-Volumes/1-Storage-volumes.md)
+
+#### 4.2. Persistent Volumes
+
+- [1. PVs, PVCs and Storage Classes](./Module-4/02-Persistent-Volumes/1-PVs-PVCs.md)
+- [2. Advanced-Topics](./Module-4/02-Persistent-Volumes/2-Advanced-Topics.md)
+
 ### 5. Configuration
 
 #### 5.1. ConfigMaps
@@ -147,46 +156,9 @@
 
 - [P.7.0 Project Topics](./Module-7/P.7.0-Project-Topics.md)
 
-### 8. Persistent Volumes and Persistent Volume Claims
-
-**Theory:**
-
-- [8.1 Volumes in Kubernetes](./Module-8/8.1-Storage-Kubernetes.md)
-- [8.2 PVs, PVCs and Storage Classes](./Module-8/8.2-PVs-PVCs.md)
-- [8.3 Advanced Topics](./Module-8/8.3-Advanced-Topics.md)
-
-**Practical**
-
-- [P.8.0 Project Topics](./Module-8/P.8.0-Project-Topics.md)
-
 ### 12. **Custom Resource Definitions (CRDs):**
 
-**Theory:**
-
 - [12.1 Introduction to CRDs](./Module-12/12.1-Introduction-CRDs.md)
-
-  - Understand how to extend Kubernetes API using Custom Resource Definitions to define custom resources and controllers.
-
-- **Project: Custom Resource and Controller**
-  - Description: Define a custom resource using CRDs and implement a controller to manage the lifecycle of the custom resource.
-
-### 13. **Resource Quotas and LimitRange:**
-
-- **Theory:**
-
-  - Explore resource management in Kubernetes using Resource Quotas and LimitRange.
-
-- **Project: Resource Management**
-  - Description: Set up Resource Quotas to limit resource usage in a Namespace. Experiment with LimitRange to restrict container resource limits.
-
-### 14. **RBAC (Role-Based Access Control):**
-
-- **Theory:**
-
-  - Learn about RBAC to control access to resources within a cluster.
-
-- **Project: User Access Management**
-  - Description: Implement RBAC to control user access to resources within a Namespace. Create roles and role bindings accordingly.
 
 ---
 
