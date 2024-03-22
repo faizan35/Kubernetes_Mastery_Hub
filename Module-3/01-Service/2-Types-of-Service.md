@@ -71,6 +71,28 @@ spec:
   type: LoadBalancer
 ```
 
+### 4. ExternalName:
+
+> Its very less used, so many people ignore it.
+
+- Used for mapping a Service to an external DNS name.
+- **Why:** When **you** want to provide access to an external service by DNS name instead of IP address.
+- It does not have selectors or endpoints; instead, it simply returns a CNAME record with the specified external name.
+- Suitable for integrating Kubernetes services with external services without exposing internal details.
+
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-service
+  namespace: prod
+spec:
+  type: ExternalName
+  externalName: my.database.example.com
+```
+
+- This allows applications within the cluster to access "my.database.example.com" without needing to know its IP address.
+
 ---
 
 ##### Diagram representing communication paths between different components in a Kubernetes cluster:

@@ -81,41 +81,48 @@
 
 ### 3. Services, Load Balancing, and Networking
 
+#### 3.1. Service
+
+- [1. What's & Why's of Services](./Module-3/01-Service/1-Service.md)
+- [2. Types of Kubernetes Services](./Module-3/01-Service/2-Types-of-Service.md)
+- [3. DNS in Kubernetes and Service Discovery](./Module-3/01-Service/3-DNS-K8s-svc-Discovery.md)
+
+- [4. Future Topics.md](./Module-3/01-Service/4-Future-Topics.md)
+
+#### 3.2. Ingress
+
+- [5.4 "NetworkPolicies" & Security with "Ingress"](./Module-5/5.4-NetworkPolicies-Ingress.md)
+
+**Practical**
+
+- [P.5.0 Project Topics](./Module-5/P.5.0-Project-Topics.md)
+- [P.5.1 cc](./Module-5/P.5.1-cc.md)
+
 ### 4. Storage
 
 ### 5. Configuration
 
 #### 5.1. ConfigMaps
 
-- [1. ConfigMaps](./Module-3/01-ConfigMaps/01-ConfigMaps.md)
-- [2. Creating ConfigMaps](./Module-3/01-ConfigMaps/02-Creating-ConfigMaps.md)
+- [1. ConfigMaps](./Module-5/01-ConfigMaps/01-ConfigMaps.md)
+- [2. Creating ConfigMaps](./Module-5/01-ConfigMaps/02-Creating-ConfigMaps.md)
 
 #### 5.2. Secret
 
-- [1. Secret](./Module-3/02-Secret/01-Secret.md)
-- [2. Creating Secret](./Module-3/02-Secret/02-Creating-Secret.md)
+- [1. Secret](./Module-5/02-Secret/01-Secret.md)
+- [2. Creating Secret](./Module-5/02-Secret/02-Creating-Secret.md)
 
-### 6.
+### 6. Policies
 
----
+#### 6.1. LimitRange
 
-### Policies
+- [1. LimitRange](./Module-6/01-Limit-Ranges/01-Limit-Ranges.md)
 
-#### 4.1. LimitRange
+#### 6.2. ResourceQuota
 
-- [1. LimitRange](./Module-4/01-Limit-Ranges/01-Limit-Ranges.md)
-
-#### 4.2. ResourceQuota
-
-- [1. ResourceQuota](./Module-4/02-ResourceQuota/01-ResourceQuota.md)
+- [1. ResourceQuota](./Module-6/02-ResourceQuota/01-ResourceQuota.md)
 
 ---
-
-### Network Objects
-
-### Storage Objects
-
-### Access Control Objects
 
 ---
 
@@ -130,21 +137,6 @@
 #### 3.3 Future Topics realted to Scalling
 
 - [3.3 Future Topics](./Module-3/3.3-Future-Topics.md)
-
-### 5. Services
-
-**Theory:**
-
-- [5.1 What's & Why's of Services](./Module-5/5.1-what-why-Services.md)
-- [5.2 Types of Kubernetes Services](./Module-5/5.2-Types-of-Services.md)
-- [5.3 DNS in Kubernetes and Service Discovery](./Module-5/5.3-DNS-svc-discovery.md)
-- [5.4 "NetworkPolicies" & Security with "Ingress"](./Module-5/5.4-NetworkPolicies-Ingress.md)
-- [5.5 Future Topics](./Module-5/5.5-Future-Topics.md)
-
-**Practical**
-
-- [P.5.0 Project Topics](./Module-5/P.5.0-Project-Topics.md)
-- [P.5.1 cc](./Module-5/P.5.1-cc.md)
 
 ### 7. Namespaces
 
