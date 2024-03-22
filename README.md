@@ -21,9 +21,17 @@
 - [1.4 Kubeconfig File](./Module-1/1.4-Kubeconfig-File.md)
 - [1.5 Kubernetes Object](./Module-1/1.5-Kubernetes-Object.md)
 - [1.6 Steps to run ANY Manifest file](./Module-1/1.6-steps-to-Run-Manifests.md)
+- [1.7 Namespaces](./Module-1/1.7-Namespaces.md)
 
 - [P.1 Setting up a K8s Cluster (local)](./Module-1/P.1-Kubernetes-Installation-using-Minikube.md)
 - [P.2 Setting up a K8s Cluster (kubeadm)](./Module-1/P.2-Kubernetes-Installation-using-kubeadm.md)
+
+### 7. Namespaces
+
+**Theory:**
+
+- [7.1 Overview of Namespaces](./Module-7/7.1-Overview-Namespaces.md)
+- [7.2 Creating Namespaces](./Module-7/7.2-Creating-Namespaces.md)
 
 ### 2. Workloads Objects
 
@@ -130,35 +138,6 @@
 - [1. ResourceQuota](./Module-6/02-ResourceQuota/01-ResourceQuota.md)
 
 ---
-
----
-
-### 3. Scaling of Pods
-
-#### 3.1 ReplicaSets
-
-#### 3.2 Horizontal Pod Autoscaling (HPA)
-
-- [3.2.1 Everything about HPA](./Module-3/3.2.1-what-is-HPA.md)
-
-#### 3.3 Future Topics realted to Scalling
-
-- [3.3 Future Topics](./Module-3/3.3-Future-Topics.md)
-
-### 7. Namespaces
-
-**Theory:**
-
-- [7.1 Overview of Namespaces](./Module-7/7.1-Overview-Namespaces.md)
-- [7.2 Creating Namespaces](./Module-7/7.2-Creating-Namespaces.md)
-
-**Practical**
-
-- [P.7.0 Project Topics](./Module-7/P.7.0-Project-Topics.md)
-
-### 12. **Custom Resource Definitions (CRDs):**
-
-- [12.1 Introduction to CRDs](./Module-12/12.1-Introduction-CRDs.md)
 
 ---
 
