@@ -89,14 +89,12 @@
 
 - [4. Future Topics.md](./Module-3/01-Service/4-Future-Topics.md)
 
+- [5.4 "NetworkPolicies" & Security with "Ingress"](./Module-3/01-Service/5.4-NetworkPolicies-Ingress.md)
+
 #### 3.2. Ingress
 
-- [5.4 "NetworkPolicies" & Security with "Ingress"](./Module-5/5.4-NetworkPolicies-Ingress.md)
-
-**Practical**
-
-- [P.5.0 Project Topics](./Module-5/P.5.0-Project-Topics.md)
-- [P.5.1 cc](./Module-5/P.5.1-cc.md)
+- [1. Ingress](./Module-3/02-Ingress/1-Ingress.md)
+- [2. Ingress Controllers](./Module-3/02-Ingress/1-Ingress-Controllers.md)
 
 ### 4. Storage
 
