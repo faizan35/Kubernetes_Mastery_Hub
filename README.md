@@ -26,13 +26,6 @@
 - [P.1 Setting up a K8s Cluster (local)](./Module-1/P.1-Kubernetes-Installation-using-Minikube.md)
 - [P.2 Setting up a K8s Cluster (kubeadm)](./Module-1/P.2-Kubernetes-Installation-using-kubeadm.md)
 
-### 7. Namespaces
-
-**Theory:**
-
-- [7.1 Overview of Namespaces](./Module-7/7.1-Overview-Namespaces.md)
-- [7.2 Creating Namespaces](./Module-7/7.2-Creating-Namespaces.md)
-
 ### 2. Workloads Objects
 
 #### 2.1. Pods
