@@ -132,24 +132,20 @@
 
 ---
 
----
-
 ## Tools
 
-- [List of all most used tools](./Everything-about-Tools.md)
+- [List of all most used tools](./Module-T/Everything-about-Tools.md)
 
 ### T1. **Helm Charts:**
 
-**Theory:**
-
-- [T1.0 Helm Syllabus](./Module-T1/T1.0-Helm-Syllabus.md)
-- [T1.1 Introduction to Helm](./Module-T1/T1.1-Introduction-Helm.md)
-- [T1.2 Installation and Setup](./Module-T1/T1.2-Helm-Installation-Setup.md)
-- [T1.3 Commands & Structure](./Module-T1/T1.3-Helm-Basics.md)
-- [T1.4 Chart Repositories](./Module-T1/T1.4-Chart-Repositories.md)
-
-- **Project: Helm Chart for Application**
-  - Description: Package your application using Helm charts. Include configurations, dependencies, and versioning in the Helm chart.
+- [T1.0 Helm Syllabus](./Module-T/Module-T1/T1.0-Helm-Syllabus.md)
+- [T1.1 Introduction to Helm](./Module-T/Module-T1/T1.1-Introduction-Helm.md)
+- [T1.2 Installation and Setup](./Module-T/Module-T1/T1.2-Helm-Installation-Setup.md)
+- [T1.3 Commands & Structure](./Module-T/Module-T1/T1.3-Helm-Basics.md)
+- [T1.4 Creating Custom Helm Chart](./Module-T/Module-T1/T1.4-Creating-Custom-Helm-Chart.md)
+- [T1.5 Helmfile](./Module-T/Module-T1/T1.5-Helmfile.md)
+- [T1.6 Helm Repo](./Module-T/Module-T1/T1.6-Helm-repo.md)
+- [T1.7 Helm Hooks and Helm Test](./Module-T/Module-T1/T1.7-Helm-hook-test.md)
 
 ### T2. **Kustomize:**
 
@@ -159,6 +155,12 @@
 
 - **Project: Custom Manifests with Kustomize**
   - Description: Use Kustomize to customize Kubernetes manifests for different environments without modifying the original files.
+
+---
+
+## Cloud kubernetes
+
+### AWS - EKS
 
 ---
 
