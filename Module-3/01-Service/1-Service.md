@@ -4,7 +4,7 @@
 
 Its a component that provide's a stable endpoint (IP address and port) for a set of pods, enabling seamless communication and discovery within the cluster.
 
-- **Used for:** Communication within the cluster.
+- **Used for:** Communication within the cluster and exposing the port to the enduser.
 
 ## Why do we need Service?
 
