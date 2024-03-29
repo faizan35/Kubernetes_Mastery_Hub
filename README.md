@@ -22,6 +22,7 @@
 - [1.5 Kubernetes Object](./Module-1/1.5-Kubernetes-Object.md)
 - [1.6 Steps to run ANY Manifest file](./Module-1/1.6-steps-to-Run-Manifests.md)
 - [1.7 Namespaces](./Module-1/1.7-Namespaces.md)
+- [1.8 Erros](./Module-1/1.8-Errors.md)
 
 - [P.1 Setting up a K8s Cluster (local)](./Module-1/P.1-Kubernetes-Installation-using-Minikube.md)
 - [P.2 Setting up a K8s Cluster (kubeadm)](./Module-1/P.2-Kubernetes-Installation-using-kubeadm.md)
@@ -95,7 +96,7 @@
 #### 3.2. Ingress
 
 - [1. Ingress](./Module-3/02-Ingress/1-Ingress.md)
-- [2. Ingress Controllers](./Module-3/02-Ingress/1-Ingress-Controllers.md)
+- [2. Ingress Controllers](./Module-3/02-Ingress/2-Ingress-Controllers.md)
 
 ### 4. Storage
 
