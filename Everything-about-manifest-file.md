@@ -28,3 +28,7 @@
 4. **DaemonSet:** Ensures that all (or some) Nodes run a copy of a Pod, typically used for system daemons.
 5. **Job and CronJob:** Creates one or more Pods and ensures that a specified number of them successfully terminate.
 6. **ServiceAccount:** Provides an identity for processes that run in a Pod.
+
+---
+
+Q) what is difference between different `apiVersion`?

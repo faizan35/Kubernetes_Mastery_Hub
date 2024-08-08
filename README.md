@@ -20,14 +20,19 @@
 - [1.3 Kubernetes Workflow](./Module-1/1.3-Kubernetes-Workflow.md)
 - [1.4 Kubeconfig File](./Module-1/1.4-Kubeconfig-File.md)
 - [1.5 Kubernetes Object](./Module-1/1.5-Kubernetes-Object.md)
-- [1.6 Steps to run ANY Manifest file](./Module-1/1.6-steps-to-Run-Manifests.md)
+- [1.6 Common `kubectl` commands](./Module-1/1.6-common-commands.md)
 - [1.7 Namespaces](./Module-1/1.7-Namespaces.md)
-- [1.8 Erros](./Module-1/1.8-Errors.md)
+- [1.8 Common types of Errors](./Module-1/1.8-Errors.md)
+- [1.9 Annotations and Labels](./Module-1/1.9-Annotations-Labels.md)
 
 - [P.1 Setting up a K8s Cluster (local)](./Module-1/P.1-Kubernetes-Installation-using-Minikube.md)
 - [P.2 Setting up a K8s Cluster (kubeadm)](./Module-1/P.2-Kubernetes-Installation-using-kubeadm.md)
 
+---
+
 ### 2. Workloads Objects
+
+#### 2.0. Creating / Writing k8s manifest files with `kubectl create` command
 
 #### 2.1. Pods
 
@@ -162,6 +167,10 @@
 ## Cloud kubernetes
 
 ### AWS - EKS
+
+### Azure - AKS
+
+### GCP - GKE
 
 ---
 
