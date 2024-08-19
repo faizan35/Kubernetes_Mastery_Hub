@@ -4,35 +4,39 @@
 
 ### 0. Pre Kubernetes
 
-- [0.1 Distributed system & CAP Theorem](./Module-0/0.1-Distributed-system.md)
-- [0.2 Authentication & Authorization](./Module-0/0.2-Authentication-Authorization.md)
-- [0.3 Key Value Store](./Module-0/0.3-Key-Value-Store.md)
-- [0.4 API - RESTful APIs and gRPC APIs](./Module-0/0.4-API.md)
-- [0.5 Basics YAML Syntax](./Module-0/0.5-Basics-YAML-Syntax.md)
-- [0.6 Container - Docker, Podman, OCI, CRI](./Module-0/0.6-Container.md)
-- [0.7 Service Discovery - client-side & server-side](./Module-0/0.7-Service-Discovery.md)
-- [0.8 Networking Basis](./Module-0/0.8-Networking-Basis.md)
+- [0.1 Distributed system & CAP Theorem](./00-Pre-Kubernetes/0.1-Distributed-system.md)
+- [0.2 Authentication & Authorization](./00-Pre-Kubernetes/0.2-Authentication-Authorization.md)
+- [0.3 Key Value Store](./00-Pre-Kubernetes/0.3-Key-Value-Store.md)
+- [0.4 API - RESTful APIs and gRPC APIs](./00-Pre-Kubernetes/0.4-API.md)
+- [0.5 Basics YAML Syntax](./00-Pre-Kubernetes/0.5-Basics-YAML-Syntax.md)
+- [0.6 Container - Docker, Podman, OCI, CRI](./00-Pre-Kubernetes/0.6-Container.md)
+- [0.7 Service Discovery - client-side & server-side](./00-Pre-Kubernetes/0.7-Service-Discovery.md)
+- [0.8 Networking Basis](./00-Pre-Kubernetes/0.8-Networking-Basis.md)
 
 ### 1. Introduction to Kubernetes
 
-- [1.1 What is Kubernetes?](./Module-1/1.1-What-is-Kubernetes.md)
-- [1.2 Kubernetes Architecture](./Module-1/1.2-kubernetes-architecture.md)
-- [1.3 Kubernetes Workflow](./Module-1/1.3-Kubernetes-Workflow.md)
-- [1.4 Kubeconfig File](./Module-1/1.4-Kubeconfig-File.md)
-- [1.5 Kubernetes Object](./Module-1/1.5-Kubernetes-Object.md)
-- [1.6 Common `kubectl` commands](./Module-1/1.6-common-commands.md)
-- [1.7 Namespaces](./Module-1/1.7-Namespaces.md)
-- [1.8 Common types of Errors](./Module-1/1.8-Errors.md)
-- [1.9 Annotations and Labels](./Module-1/1.9-Annotations-Labels.md)
+- [1.1 What is Kubernetes?](./01-Introduction-to-k8s/1.1-What-is-Kubernetes.md)
+- [1.2 Kubernetes Architecture](./01-Introduction-to-k8s/1.2-kubernetes-architecture.md)
+- [1.3 Kubernetes Workflow](./01-Introduction-to-k8s/1.3-Kubernetes-Workflow.md)
+- [1.4 Kubeconfig File](./01-Introduction-to-k8s/1.4-Kubeconfig-File.md)
+- [1.5 Kubernetes Object](./01-Introduction-to-k8s/1.5-Kubernetes-Object.md)
+- [1.6 Common `kubectl` commands](./01-Introduction-to-k8s/1.6-common-commands.md)
+- [1.7 Namespaces](./01-Introduction-to-k8s/1.7-Namespaces.md)
+- [1.8 Common types of Errors](./01-Introduction-to-k8s/1.8-Errors.md)
+- [1.9 Annotations and Labels](./01-Introduction-to-k8s/1.9-Annotations-Labels.md)
 
-- [P.1 Setting up a K8s Cluster (local)](./Module-1/P.1-Kubernetes-Installation-using-Minikube.md)
-- [P.2 Setting up a K8s Cluster (kubeadm)](./Module-1/P.2-Kubernetes-Installation-using-kubeadm.md)
+- [P.1 Setting up a K8s Cluster (local)](./01-Introduction-to-k8s/P.1-Kubernetes-Installation-using-Minikube.md)
+- [P.2 Setting up a K8s Cluster (kubeadm)](./01-Introduction-to-k8s/P.2-Kubernetes-Installation-using-kubeadm.md)
+
+### 2. Pods
+
+- [Everything about Pods](./02-Pods/Readme.md)
 
 ---
 
 ### 2. Workloads Objects
 
-#### 2.0. Creating / Writing k8s manifest files with `kubectl create` command
+#### [2.0. Creating / Writing k8s manifest files with `kubectl create` command](./Module-2/01-creating-manifest.md)
 
 #### 2.1. Pods
 
