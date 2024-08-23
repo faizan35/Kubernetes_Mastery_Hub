@@ -2,42 +2,43 @@
 
 ## **1. Introduction to Pods**
 
-### **1.1 What is a Pod?**
+### [1.1 What is a Pod?](./01-Intro-to-Pods/1.1-what-is-pod.md)
 
 - Definition and purpose of Pods
 - Difference between Pods and containers
 - Single vs. Multi-container Pods
 
-### **1.2 Pod Lifecycle**
+### [1.2 Pod Lifecycle](./01-Intro-to-Pods/1.2-Pod-Lifecycle.md)
 
 - Phases of a Pod (Pending, Running, Succeeded, Failed, etc.)
 - Pod termination and cleanup
 - Pod states and status fields
 
-### **1.3 Creating and Managing Pods**
+### [1.3 Creating and Managing Pods](./01-Intro-to-Pods/1.3-Creating-Managing-Pods.md)
 
 - Basic `kubectl` commands to create, view, and manage Pods
 - YAML configuration for Pods
 - Labels, selectors, and annotations
 
+## **2. Pod Networking**
+
+### **2.1 Pod-to-Pod Communication**
+
+- Understanding how Pods communicate within a cluster
+- ClusterIP and networking models in Kubernetes
+- DNS for Pods
+
+### **2.2 Service Discovery**
+
+- How Pods are discovered and exposed
+- Role of Services in Pod communication
+
+### **2.3 Networking Policies**
+
+- Network isolation between Pods
+- Creating and applying Network Policies
+
 ---
-
-#### **2. Pod Networking**
-
-- **2.1 Pod-to-Pod Communication**
-
-  - Understanding how Pods communicate within a cluster
-  - ClusterIP and networking models in Kubernetes
-  - DNS for Pods
-
-- **2.2 Service Discovery**
-
-  - How Pods are discovered and exposed
-  - Role of Services in Pod communication
-
-- **2.3 Networking Policies**
-  - Network isolation between Pods
-  - Creating and applying Network Policies
 
 #### **3. Pod Storage**
 
@@ -153,5 +154,3 @@
   - Analyzing Pending Pods and resolving scheduling issues
 
 ---
-
-This syllabus will give you a comprehensive understanding of Pods in Kubernetes, from their basic concepts to advanced features and troubleshooting techniques.
