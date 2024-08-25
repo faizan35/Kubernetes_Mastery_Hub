@@ -28,11 +28,11 @@
 - [P.1 Setting up a K8s Cluster (local)](./01-Introduction-to-k8s/P.1-Kubernetes-Installation-using-Minikube.md)
 - [P.2 Setting up a K8s Cluster (kubeadm)](./01-Introduction-to-k8s/P.2-Kubernetes-Installation-using-kubeadm.md)
 
+---
+
 ### 2. Pods
 
 - [Everything about Pods](./02-Pods/Readme.md)
-
----
 
 ### 2. Workloads Objects
 
@@ -119,6 +119,25 @@
 - [2. Advanced-Topics](./Module-4/02-Persistent-Volumes/2-Advanced-Topics.md)
 
 ### 5. Configuration
+
+- [New](./Module-5/01-ConfigMaps/new.md)
+
+### 4.1 Environment Variables
+
+- Setting environment variables in Pods
+- Configuring Secrets and ConfigMaps
+
+### **4.2 ConfigMaps**
+
+- Creating and managing ConfigMaps
+- Injecting ConfigMaps into Pods
+
+### **4.3 Secrets**
+
+- Creating and managing Secrets
+- Injecting Secrets into Pods securely
+
+---
 
 #### 5.1. ConfigMaps
 
