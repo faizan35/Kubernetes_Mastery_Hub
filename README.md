@@ -18,7 +18,7 @@
 - [1.1 What is Kubernetes?](./01-Introduction-to-k8s/1.1-What-is-Kubernetes.md)
 - [1.2 Kubernetes Architecture](./01-Introduction-to-k8s/1.2-kubernetes-architecture.md)
 - [1.3 Kubernetes Workflow](./01-Introduction-to-k8s/1.3-Kubernetes-Workflow.md)
-- [1.4 Kubeconfig File](./01-Introduction-to-k8s/1.4-Kubeconfig-File.md)
+- [1.4 `Kubeconfig` File](./01-Introduction-to-k8s/1.4-Kubeconfig-File.md)
 - [1.5 Kubernetes Object](./01-Introduction-to-k8s/1.5-Kubernetes-Object.md)
 - [1.6 Common `kubectl` commands](./01-Introduction-to-k8s/1.6-common-commands.md)
 - [1.7 Namespaces](./01-Introduction-to-k8s/1.7-Namespaces.md)
@@ -28,15 +28,24 @@
 - [P.1 Setting up a K8s Cluster (local)](./01-Introduction-to-k8s/P.1-Kubernetes-Installation-using-Minikube.md)
 - [P.2 Setting up a K8s Cluster (kubeadm)](./01-Introduction-to-k8s/P.2-Kubernetes-Installation-using-kubeadm.md)
 
----
-
 ### 2. Pods
 
 - [Everything about Pods](./02-Pods/Readme.md)
 
+### 3. Kubernetes Networking
+
+- [3.1. Kubernetes Networking Model](./03-Kubernetes-Networking/01-Kubernetes-Networking-Model.md)
+- [3.2. CNI Plugins: Calico, Flannel, Weave, etc.](./03-Kubernetes-Networking/02-CNI-Plugins.md)
+- [3.3. Service Discovery and CoreDNS](./03-Kubernetes-Networking/03-Service-Discovery-CoreDNS.md)
+- [3.4. Network Policies and Security](./03-Kubernetes-Networking/04-Network-Policies-Security.md)
+
+### 4. Workloads Objects / Resource Management
+
+---
+
 ### 2. Workloads Objects
 
-#### [2.0. Creating / Writing k8s manifest files with `kubectl create` command](./Module-2/01-creating-manifest.md)
+#### [2.0. Generating k8s manifest files with `kubectl create` command](./Module-2/01-creating-manifest.md)
 
 #### 2.1. Pods
 
