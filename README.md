@@ -41,51 +41,56 @@
 
 ### 4. Workloads Objects / Resource Management
 
----
+#### [4.0. Generating k8s manifest files with `kubectl create` command](./04-Workloads-Resource/01-creating-manifest.md)
 
-### 2. Workloads Objects
+#### 4.1. Deployment
 
-#### [2.0. Generating k8s manifest files with `kubectl create` command](./Module-2/01-creating-manifest.md)
+##### [4.1.1. Introduction to Deployments](./04-Workloads-Resource/01-Deployment/01-Introduction-Deployments.md)
 
-#### 2.1. Pods
+- What's & Why's of Deployments
+- Deployment YAML Structure
+- Replicas: Set and manage replicas for high availability.
 
-- [1. Pods](./Module-2/01-Pods/01-Pod.md)
+##### [4.1.2. Rolling Updates and Rollbacks](./04-Workloads-Resource/01-Deployment/02-Rolling-Up-Rollbacks.md)
 
-- [P.1 Simple Nginx Pod](./Module-2/01-Pods/P.1-Simple-Nginx-Pod.md)
-- [P.2 Multi-Container Pod](./Module-2/01-Pods/P.2-Multi-container-pods.md)
+- Rolling Update Strategy
+- `MaxUnavailable` & `MaxSurge`
+- Rollback
+- Versioning: Version your Deployments for easier rollback and management.
 
-#### 2.2. ReplicaSets
+##### [4.1.3. Advanced Deployment Strategies](./04-Workloads-Resource/01-Deployment/03-Adv-Deployment-Strat.md)
 
-- [1. ReplicaSets](./Module-2/02-ReplicaSets/01-ReplicaSets.md)
-- [2. Interview Questions](./Module-2/02-ReplicaSets/02-Interview-Questions.md)
+- Blue-Green Deployments
+- Canary Deployments
+- Other Strategies
 
-#### 2.3. Deployment
+##### [P.4.1 Scaling with ReplicaSets](./04-Workloads-Resource/01-Deployment/P.1-Scaling-ReplicaSets.md)
 
-- [1. What's & Why's of Deployments](./Module-2/03-Deployment/01-what-why-Deployments.md)
-- [2. Rolling Updates and Rollbacks in Deployments](./Module-2/03-Deployment/02-Rolling-Up-Rollbacks.md)
-- [3. Health Checks with Probes](./Module-2/03-Deployment/03-Health-Checks-Probes.md)
-- [4. Advanced Strategies & Use Cases](./Module-2/03-Deployment/04-Adv-Deployment-Strat.md)
+##### [P.4.2 Rolling Updates and Rollbacks](./04-Workloads-Resource/01-Deployment/P.2-Rolling-Updates-Rollbacks.md)
 
-- [P.4.1 Scaling with ReplicaSets](./Module-2/03-Deployment/P.1-Scaling-ReplicaSets.md)
-- [P.4.2 Rolling Updates and Rollbacks](./Module-2/03-Deployment/P.2-Rolling-Updates-Rollbacks.md)
+#### 4.2. StatefulSets
 
-#### 2.4. StatefulSets
+- [1. What's and Why's StatefulSets](./04-Workloads-Resource/02-StatefulSets/01-Introduction-StatefulSets.md)
 
-- [1. What's and Why's StatefulSets](./Module-2/04-StatefulSets/9.1-What-StatefulSets.md)
-- [2. Stable Network Identifiers](./Module-2/04-StatefulSets/9.2-Stable-Network-Identifiers.md)
-- [3. Role of Persistent Storage in StatefulSets](./Module-2/04-StatefulSets/9.3-Persistent-Storage-StatefulSets.md)
-- [4. Creating StatefulSets](./Module-2/04-StatefulSets/9.4-Creating-StatefulSets.md)
-- [5. Headless Services](./Module-2/04-StatefulSets/9.5-Headless-Services.md)
-- [6. Interview Questions](./Module-2/04-StatefulSets/9.6-Interview-Questions.md)
+- [2. Stable Network Identifiers](./04-Workloads-Resource/02-StatefulSets/9.2-Stable-Network-Identifiers.md)
+- [3. Role of Persistent Storage in StatefulSets](./04-Workloads-Resource/02-StatefulSets/9.3-Persistent-Storage-StatefulSets.md)
+- [4. Creating StatefulSets](./04-Workloads-Resource/02-StatefulSets/9.4-Creating-StatefulSets.md)
+- [5. Headless Services](./04-Workloads-Resource/02-StatefulSets/9.5-Headless-Services.md)
+- [6. Interview Questions](./04-Workloads-Resource/02-StatefulSets/9.6-Interview-Questions.md)
 
-- [P.0 Project Topics](./Module-2/04-StatefulSets/P.9.0-Project-Topics.md)
+- [P.0 Project Topics](./04-Workloads-Resource/02-StatefulSets/P.9.0-Project-Topics.md)
 
-#### 2.5. DaemonSets
+#### 4.3. DaemonSets
 
 - [1. What's and Why's DaemonSets](./Module-2/05-DaemonSets/10.1-What-DaemonSets.md)
 - [2. Creating DaemonSet](./Module-2/05-DaemonSets/10.2-creating-DaemonSets.md)
 - [3. Node Affinity and Anti-Affinity](./Module-2/05-DaemonSets/10.3-Node-Affinity-Anti-Affinity.md)
 - [4. Interview Questions](./Module-2/05-DaemonSets/10.4-Interview-Questions.md)
+
+#### 2.2. ReplicaSets
+
+- [1. ReplicaSets](./Module-2/02-ReplicaSets/01-ReplicaSets.md)
+- [2. Interview Questions](./Module-2/02-ReplicaSets/02-Interview-Questions.md)
 
 #### 2.6. **Jobs**
 
@@ -94,6 +99,8 @@
 #### 2.7. **CronJobs**
 
 - [1. Introduction to Cronjobs](./Module-2/07-CronJobs/11.2-Introduction-Cronjobs.md)
+
+---
 
 #### 2.8. **ReplicationController (Not Recommended)**
 

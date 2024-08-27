@@ -1,73 +1,89 @@
-# Deployments
+# 4.1.1. Introduction to Deployments
 
 **Official k8s Docs:** https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
 
-### 1. What is a Deployment?
+### **1. What is a Deployment?**
+
+- A Deployment in Kubernetes is a higher-level abstraction that manages the lifecycle of pods.
+- A Deployment in Kubernetes is like a manager that manages the lifecycle of pods.
+- We define the desired state, and its continuously monitors the current state to meet the desired state.
+
+#### OR
 
 - <h4 style="display: inline;">Deployments</h4> is a declarative way to <h5 style="display: inline;">automate and manage the containerized applications</h5> to maintain a specified desired state, through ReplicaSet.
 
 - Deployments are <u>**abstraction layer above ReplicaSets**</u>, providing declarative updates, rolling updates, and rollbacks.
 
-abstraction layer above ReplicaSets
-: You just describing/write the desired state, and Kubernetes takes care of achieving and maintaining that state.
+- When you create a **Deployment**, Kubernetes creates a **ReplicaSet**, which in turn manages the Pods.
 
----
+- The **Deployment controller** continually **monitors** the state of the ReplicaSet, to match the desired state specified in the Deployment manifest.
 
-### 2. Benefits of Deployments:
+#### What ReplicaSet do..?
+
+: - ReplicaSet keep a specific number of replicas running at all times.
+: - If one crashes, it quickly replaces it to maintain the desired number.
+
+#### Deployments (boss):
+
+: - is like a boss that watches over these replicas.
+: - It make's sure these replicas are doing exactly what you want, even when you're making changes.
+
+### **2. Why Use Deployments?**
 
 - **Declarative Updates**: You describe the desired state, and K8s ensures that the current state matches that desired state.
+
+- **Scalability**: You can easily scale your application by increasing or decreasing the number of `replicas`.
 
 - **Self-healing:** Deployments automatically replace failed pods and maintain the desired state.
 
 - **Rolling Updates:** Easily update your application without downtime using rolling updates.
 
-- **Rollbacks:** If an update goes wrong, roll back to the previous version.
+- **Rollbacks:** It track changes and allow you to roll back to previous versions if something goes wrong during an update.
 
-### 3. How Deployments Work.?
+### **3. Creating Deployment YAML file**
 
-##### This deployment manifest file looks same as repplicaSet, so why do we need it?
+#### With `kubectl create` command
+
+```sh
+kubectl create deployment my-deployment --image=nginx --dry-run=client -o yaml
+```
+
+**Output:**
 
 ```yaml
 apiVersion: apps/v1
-kind: Deployment # ONLY CHANAGE = kind: ReplicaSet
+kind: Deployment
 metadata:
+  creationTimestamp: null
+  labels:
+    app: my-deployment
   name: my-deployment
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
-      app: web
+      app: my-deployment
+  strategy: {}
   template:
     metadata:
+      creationTimestamp: null
       labels:
-        app: web
+        app: my-deployment
     spec:
       containers:
-        - name: my-container
-          image: nginx:latest
-          ports:
-            - containerPort: 80
+        - image: nginx
+          name: nginx
+          resources: {}
+status: {}
 ```
 
-- When you create a **Deployment**, Kubernetes creates a **ReplicaSet**, which in turn manages the Pods.
+#### For help
 
-- The **Deployment controller** continually **monitors** the state of the ReplicaSet, to match the desired state specified in the Deployment manifest.
+```sh
+kubectl create deployment --help
+```
 
-#### 3.2 What ReplicaSet do..?
-
-: - ReplicaSet keep a specific number of replicas running at all times.
-: - If one crashes, it quickly replaces it to maintain the desired number.
-
-#### 3.3 Deployments (boss):
-
-: - is like a boss that watches over these replicas.
-: - It make's sure these replicas are doing exactly what you want, even when you're making changes.
-
-### 4. Creating a Deployments
-
-- All same just chagne, `kind: ReplicaSet`.
-
-- Once you apply the YAML manifest, K8s creates the necessary resources (ReplicaSet, Pods) to match the desired state.
+#### Few Deployments Commands
 
 ##### Apply the Deployment:
 
@@ -87,19 +103,7 @@ kubectl get deployment
 kubectl get replicaset
 ```
 
-### 5. Updating a Deployment - Rolling Update:
-
-- To update a Deployment, you modify the YAML manifest file and apply the changes using `kubectl apply`.
-
-- Kubernetes will perform a **rolling update**.
-
-- **Rolling Update**: K8s creates the new Pods and gradually replaces the old pods, ensuring zero downtime during the update process.
-
-### 6. Rollback - Handle error in Rolling Update:
-
-- If an update causes issues, you can perform a rollback to revert to the previous stable version.
-
-- Kubernetes retains the history of Deployment revisions, allowing you to rollback to a specific revision using `kubectl rollout undo`.
+---
 
 ### 7. Scaling a Deployments
 

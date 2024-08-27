@@ -1,4 +1,4 @@
-# Advanced Deployment Strategies
+# 4.1.3. Advanced Deployment Strategies
 
 ## Argo Rollouts
 
@@ -48,7 +48,7 @@ spec:
 ## 2. Canary Deployments:
 
 Idea
-: new version if first used by a small group of users (the **"canary"**) before deploying it to the entire user base.
+: new version is first released for small group(for 20% users), if it perfoms correctly, then gradually increase the percentage of user.
 
 Implementation
 : Achieved by creating multiple Deployments with different versions and gradually shifting traffic from the old to the new version.
