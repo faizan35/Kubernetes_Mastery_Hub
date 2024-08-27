@@ -71,7 +71,6 @@
 #### 4.2. StatefulSets
 
 - [1. What's and Why's StatefulSets](./04-Workloads-Resource/02-StatefulSets/01-Introduction-StatefulSets.md)
-
 - [2. Stable Network Identifiers](./04-Workloads-Resource/02-StatefulSets/9.2-Stable-Network-Identifiers.md)
 - [3. Role of Persistent Storage in StatefulSets](./04-Workloads-Resource/02-StatefulSets/9.3-Persistent-Storage-StatefulSets.md)
 - [4. Creating StatefulSets](./04-Workloads-Resource/02-StatefulSets/9.4-Creating-StatefulSets.md)
@@ -82,23 +81,20 @@
 
 #### 4.3. DaemonSets
 
-- [1. What's and Why's DaemonSets](./Module-2/05-DaemonSets/10.1-What-DaemonSets.md)
-- [2. Creating DaemonSet](./Module-2/05-DaemonSets/10.2-creating-DaemonSets.md)
-- [3. Node Affinity and Anti-Affinity](./Module-2/05-DaemonSets/10.3-Node-Affinity-Anti-Affinity.md)
-- [4. Interview Questions](./Module-2/05-DaemonSets/10.4-Interview-Questions.md)
+- [1. What's and Why's DaemonSets](./04-Workloads-Resource/03-DaemonSets/01-Introduction-DaemonSets.md)
+- [2. Creating DaemonSet](./04-Workloads-Resource/03-DaemonSets/10.2-creating-DaemonSets.md)
+- [3. Interview Questions](./04-Workloads-Resource/03-DaemonSets/10.4-Interview-Questions.md)
 
-#### 2.2. ReplicaSets
+#### 4.4. ReplicaSets
 
-- [1. ReplicaSets](./Module-2/02-ReplicaSets/01-ReplicaSets.md)
-- [2. Interview Questions](./Module-2/02-ReplicaSets/02-Interview-Questions.md)
+- [1. ReplicaSets](./04-Workloads-Resource/04-ReplicaSets/01-Introduction-ReplicaSets.md)
+- [2. Interview Questions](./04-Workloads-Resource/04-ReplicaSets/02-Interview-Questions.md)
 
-#### 2.6. **Jobs**
+#### 4.5. **Jobs and CronJobs**
 
-- [1. Introduction to Jobs](./Module-2/06-Jobs/11.1-Introduction-Jobs.md)
+- [1. Introduction to Jobs](./04-Workloads-Resource/05-Jobs-and-CronJobs/01-Introduction-Jobs.md)
 
-#### 2.7. **CronJobs**
-
-- [1. Introduction to Cronjobs](./Module-2/07-CronJobs/11.2-Introduction-Cronjobs.md)
+- [2. Introduction to Cronjobs](./04-Workloads-Resource/05-Jobs-and-CronJobs/02-Introduction-Cronjobs.md)
 
 ---
 
