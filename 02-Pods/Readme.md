@@ -108,6 +108,23 @@
 - Debugging with Ephemeral Containers
 - Use cases and configuration
 
+## **8. Pod Disruption Budget (PDB)**
+
+### [8.1. Purpose of PDBs](./08-Advanced-Pod-Patterns/8.1-Purpose-of-PDBs.md)
+
+- Ensuring minimum Pod availability during disruptions.
+- Preventing full application downtime.
+
+### [8.2. PDB Configuration](./08-Advanced-Pod-Patterns/8.2-PDB-Configuration.md)
+
+- Setting `minAvailable` or `maxUnavailable` Pods.
+- Using labels to apply PDBs to specific Pods.
+
+### [8.3. Use Cases](./08-Advanced-Pod-Patterns/8.3-Use-Cases.md)
+
+- Maintaining service uptime during node maintenance or updates.
+- Balancing Pod availability and cluster operations.
+
 ---
 
 ## **8. Pod Security**
