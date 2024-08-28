@@ -96,11 +96,33 @@
 
 - [2. Introduction to Cronjobs](./04-Workloads-Resource/05-Jobs-and-CronJobs/02-Introduction-Cronjobs.md)
 
+### 5. Configuration Management
+
+#### [5.1. ConfigMaps](./05-Configuration-Management/01-ConfigMaps.md)
+
+- Creating and managing ConfigMaps
+- Injecting ConfigMaps into Pods
+- Updating ConfigMaps
+- Best Practices
+- ConfigMap as Command Line Arguments
+
+#### [5.2. Secret](./05-Configuration-Management/02-Secret.md)
+
+- Creating and managing Secrets
+- Injecting Secrets into Pods securely
+- Security Considerations
+- Secret Types
+- Updating and Rolling Secrets
+- Best Practices
+
+### [5.3. Environment Variables](./05-Configuration-Management/03-Environment-Variables.md)
+
+- Basics of Environment Variables
+- Setting environment variables in Pods
+- Using Environment Variables from ConfigMaps and Secrets
+- Environment Variable Substitution
+
 ---
-
-#### 2.8. **ReplicationController (Not Recommended)**
-
-- [1. ReplicationController](./Module-2/08-ReplicationController/1-ReplicationController.md)
 
 ### 3. Services, Load Balancing, and Networking
 
@@ -129,37 +151,6 @@
 
 - [1. PVs, PVCs and Storage Classes](./Module-4/02-Persistent-Volumes/1-PVs-PVCs.md)
 - [2. Advanced-Topics](./Module-4/02-Persistent-Volumes/2-Advanced-Topics.md)
-
-### 5. Configuration
-
-- [New](./Module-5/01-ConfigMaps/new.md)
-
-### 4.1 Environment Variables
-
-- Setting environment variables in Pods
-- Configuring Secrets and ConfigMaps
-
-### **4.2 ConfigMaps**
-
-- Creating and managing ConfigMaps
-- Injecting ConfigMaps into Pods
-
-### **4.3 Secrets**
-
-- Creating and managing Secrets
-- Injecting Secrets into Pods securely
-
----
-
-#### 5.1. ConfigMaps
-
-- [1. ConfigMaps](./Module-5/01-ConfigMaps/01-ConfigMaps.md)
-- [2. Creating ConfigMaps](./Module-5/01-ConfigMaps/02-Creating-ConfigMaps.md)
-
-#### 5.2. Secret
-
-- [1. Secret](./Module-5/02-Secret/01-Secret.md)
-- [2. Creating Secret](./Module-5/02-Secret/02-Creating-Secret.md)
 
 ### 6. Policies
 
