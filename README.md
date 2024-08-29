@@ -129,7 +129,7 @@
 - Updating and Rolling Secrets
 - Best Practices
 
-### [5.3. Environment Variables](./05-Configuration-Management/03-Environment-Variables.md)
+#### [5.3. Environment Variables](./05-Configuration-Management/03-Environment-Variables.md)
 
 - Basics of Environment Variables
 - Setting environment variables in Pods
@@ -138,33 +138,34 @@
 
 ---
 
-### 4. Storage Management
+### 6. Security and Compliance
 
-#### Persistent Volumes (PVs) and Persistent Volume Claims (PVCs)
+#### 6.1. RBAC (Role-Based Access Control)
 
-Dynamic Volume Provisioning
-Storage Classes
-CSI (Container Storage Interface) Drivers
+##### [**6.1.1. Roles, RoleBindings, ClusterRoles, and ClusterRoleBindings**](./06-Security-and-Compliance/01-RBAC/01-All-types-of-roles.md)
 
-#### Distributed Storage Systems
+- Creating RBAC
+- Automating RBAC configurations with tools like kubectl and kustomize.
+- Best practices for designing RBAC policies.
+- Auditing and monitoring RBAC permissions.
 
-Ceph, GlusterFS, Rook
+##### [**6.1.2. Service Accounts and Permissions**](./06-Security-and-Compliance/01-RBAC/02-Service-Accounts-and-Permissions.md)
 
-#### Data Management
+- Managing Service Accounts at scale.
 
-Backup and Restore Strategies
-Disaster Recovery in Kubernetes
+#### 6.2. Secrets Management
 
----
+##### [6.2.1. Integrating External Secrets Managers (e.g., HashiCorp Vault)](./06-Security-and-Compliance/02-Secrets-Management/01-External-Secrets-Managers.md)  
 
-#### 4.1. Volumes
+- Automating secret rotation and renewal.
+- Using Kubernetes External Secrets or Secrets Store CSI Driver.
 
-- [1. Volumes in Kubernetes](./Module-4/01-Volumes/1-Storage-volumes.md)
+##### [6.2.2. Securing Secrets with Encryption](./06-Security-and-Compliance/02-Secrets-Management/02-Securing-Secrets-with-Encryption.md)
 
-#### 4.2. Persistent Volumes
+- Encrypting secrets at rest using KMS providers.
+- Best practices for managing secrets in CI/CD pipelines.
 
-- [1. PVs, PVCs and Storage Classes](./Module-4/02-Persistent-Volumes/1-PVs-PVCs.md)
-- [2. Advanced-Topics](./Module-4/02-Persistent-Volumes/2-Advanced-Topics.md)
+#### [More Topics](./06-Security-and-Compliance/More-topics.md)
 
 ---
 
@@ -249,3 +250,198 @@ This project is licensed under the [MIT License](LICENSE).
 Happy learning!
 
 ---
+
+### Advanced Kubernetes Learning Syllabus for Industry-Level Knowledge
+
+#### **1. Core Concepts and Architecture**
+
+- **Introduction to Kubernetes**
+  - Kubernetes Architecture: Master and Worker Nodes
+  - Key Components: API Server, Scheduler, Controller Manager, Kubelet, Kube-Proxy, etcd
+- **Pods**
+  - Advanced Pod Lifecycle
+  - Multi-Container Pods
+  - Pod Init Containers
+  - Pod Disruption Budgets (PDB)
+  - Security Contexts in Pods
+- **Namespaces**
+  - Namespace Management
+  - Resource Quotas and Limits in Namespaces
+- **Kubernetes Networking**
+  - Kubernetes Networking Model
+  - CNI Plugins: Calico, Flannel, Weave, etc.
+  - Service Discovery and CoreDNS
+  - Network Policies and Security
+
+#### **2. Advanced Resource Management**
+
+- **Deployments**
+  - Rolling Updates, Rollbacks, and Deployment Strategies
+  - Canary Deployments and Blue-Green Deployments
+- **StatefulSets**
+  - Stateful Applications
+  - Persistent Storage with StatefulSets
+- **DaemonSets**
+  - System Daemons and Cluster-wide Services
+- **ReplicaSets**
+  - Managing Replicas and Scaling Applications
+- **Jobs and CronJobs**
+  - Batch Processing with Jobs
+  - Scheduled Tasks with CronJobs
+
+#### **3. Configuration Management**
+
+- **ConfigMaps and Secrets**
+  - Managing Configuration Data
+  - Using Secrets for Sensitive Information
+- **Helm**
+  - Helm Charts: Creating, Using, and Managing
+  - Templating and Customizing Deployments
+- **Kustomize**
+  - Overlay and Patch Kubernetes Resources
+  - Custom Resource Definitions (CRDs)
+
+#### **4. Security and Compliance**
+
+- **RBAC (Role-Based Access Control)**
+  - Roles, RoleBindings, ClusterRoles, and ClusterRoleBindings
+  - Service Accounts and Permissions
+- **Pod Security Policies (PSPs)**
+  - Restricting Pod Capabilities
+  - Enforcing Security Standards
+- **Network Security**
+  - Implementing Network Policies
+  - Using Service Mesh for Security (e.g., Istio)
+- **Secrets Management**
+  - Integrating External Secrets Managers (e.g., HashiCorp Vault)
+  - Securing Secrets with Encryption
+
+#### **5. Storage Management**
+
+- **Persistent Volumes (PVs) and Persistent Volume Claims (PVCs)**
+  - Dynamic Volume Provisioning
+  - Storage Classes
+  - CSI (Container Storage Interface) Drivers
+- **Distributed Storage Systems**
+  - Ceph, GlusterFS, Rook
+- **Data Management**
+  - Backup and Restore Strategies
+  - Disaster Recovery in Kubernetes
+
+#### **6. Kubernetes Networking and Service Mesh**
+
+- **Service Mesh Overview**
+  - Introduction to Istio, Linkerd, and Consul
+- **Service Mesh Features**
+  - Traffic Management, Load Balancing, and Failover
+  - Circuit Breaking and Retries
+  - Secure Service Communication (mTLS)
+- **Ingress Controllers**
+  - NGINX, Traefik, and other Ingress Controllers
+  - Ingress Resource Configuration
+  - SSL/TLS Termination and HTTPS Routing
+
+#### **7. Monitoring, Logging, and Tracing**
+
+- **Monitoring**
+  - Prometheus and Grafana Setup
+  - Alerting with Prometheus Alertmanager
+  - Advanced Monitoring Techniques
+- **Logging**
+  - Centralized Logging with ELK/EFK Stack (Elasticsearch, Logstash/Fluentd, Kibana)
+  - Loki and Promtail for Logging
+- **Tracing**
+  - Distributed Tracing with Jaeger and Zipkin
+  - Integrating Tracing with Service Mesh
+
+#### **8. Kubernetes Performance and Optimization**
+
+- **Resource Management**
+  - CPU and Memory Resource Requests and Limits
+  - Quality of Service (QoS) Classes
+- **Horizontal Pod Autoscaler (HPA)**
+  - Scaling Pods Based on Metrics
+  - Custom Metrics for Autoscaling
+- **Vertical Pod Autoscaler (VPA)**
+  - Automatically Adjusting Resource Requests
+- **Cluster Autoscaler**
+  - Scaling the Kubernetes Cluster Nodes
+- **Performance Tuning**
+  - Node and Cluster Level Performance Optimization
+  - Pod Scheduling and Resource Optimization
+
+#### **9. CI/CD Pipelines with Kubernetes**
+
+- **Continuous Integration (CI)**
+  - Integrating Jenkins with Kubernetes
+  - GitLab CI/CD with Kubernetes
+- **Continuous Deployment (CD)**
+  - Spinnaker for Kubernetes Deployments
+  - ArgoCD for GitOps-based Deployment
+- **Testing in CI/CD Pipelines**
+  - Automated Testing in Kubernetes
+  - Canary Releases and Blue-Green Deployments
+
+#### **10. Advanced Kubernetes Ecosystem**
+
+- **Operator Framework**
+  - Building and Managing Operators
+  - Advanced Operator Patterns
+- **Custom Resource Definitions (CRDs)**
+  - Extending Kubernetes Functionality
+  - Developing and Using CRDs
+- **Multi-Cluster Management**
+  - Federation and Cluster API
+  - Managing Clusters Across Different Environments
+
+#### **11. Kubernetes Security Best Practices**
+
+- **Supply Chain Security**
+  - Image Scanning with Trivy, Clair, etc.
+  - Securing Container Images
+- **Pod Security Standards**
+  - Least Privilege, No Root Containers
+  - Securing Pod-to-Pod Communication
+- **Compliance and Auditing**
+  - Implementing CIS Benchmarks
+  - Auditing Kubernetes Clusters for Compliance
+
+#### **12. Disaster Recovery and High Availability**
+
+- **Disaster Recovery Strategies**
+  - Backup and Restore Workloads
+  - Cluster-level Disaster Recovery
+- **High Availability (HA)**
+  - HA for Control Plane Components
+  - HA for Stateful Applications
+
+#### **13. Advanced Kubernetes Troubleshooting**
+
+- **Pod-Level Troubleshooting**
+  - Debugging Pod Failures, CrashLoopBackOff, ImagePullBackOff, etc.
+- **Node-Level Troubleshooting**
+  - Node Resource Issues, Disk Pressure, Network Issues
+- **Cluster-Level Troubleshooting**
+  - etcd Failures, API Server Downtime, Scheduler Issues
+
+#### **14. Kubernetes on Cloud Providers**
+
+- **Managed Kubernetes Services**
+  - GKE (Google Kubernetes Engine), EKS (Amazon Elastic Kubernetes Service), AKS (Azure Kubernetes Service)
+- **Hybrid and Multi-Cloud Kubernetes**
+  - Using Kubernetes Across Multiple Cloud Providers
+  - Kubernetes on Bare Metal
+
+#### **15. Real-World Projects and Case Studies**
+
+- **Project 1: Building a Scalable Microservices Architecture**
+- **Project 2: Implementing CI/CD Pipelines with Kubernetes**
+- **Project 3: Advanced Monitoring and Logging Setup**
+- **Project 4: Building and Deploying a Custom Operator**
+- **Project 5: Multi-Cluster Management and Disaster Recovery**
+
+---
+
+This syllabus covers a comprehensive set of topics required for mastering Kubernetes at an advanced, industry-ready level. It is designed to equip you with the knowledge and skills to handle complex Kubernetes environments, manage production workloads, and implement best practices in a real-world setting.
+
+Let me know if you would like to explore any specific topics in more detail or need additional resources!
