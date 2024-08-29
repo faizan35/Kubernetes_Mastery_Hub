@@ -39,6 +39,20 @@
 - [3.3. Service Discovery and CoreDNS](./03-Kubernetes-Networking/03-Service-Discovery-CoreDNS.md)
 - [3.4. Network Policies and Security](./03-Kubernetes-Networking/04-Network-Policies-Security.md)
 
+---
+
+#### 3.1. Service
+
+- [1. What's & Why's of Services](./Module-3/01-Service/1-Service.md)
+- [2. Types of Kubernetes Services](./Module-3/01-Service/2-Types-of-Service.md)
+- [3. DNS in Kubernetes and Service Discovery](./Module-3/01-Service/3-DNS-K8s-svc-Discovery.md)
+
+- [4. Future Topics.md](./Module-3/01-Service/4-Future-Topics.md)
+
+- [5.4 "NetworkPolicies" & Security with "Ingress"](./Module-3/01-Service/5.4-NetworkPolicies-Ingress.md)
+
+---
+
 ### 4. Workloads Objects / Resource Management
 
 #### [4.0. Generating k8s manifest files with `kubectl create` command](./04-Workloads-Resource/01-creating-manifest.md)
@@ -124,24 +138,24 @@
 
 ---
 
-### 3. Services, Load Balancing, and Networking
+### 4. Storage Management
 
-#### 3.1. Service
+#### Persistent Volumes (PVs) and Persistent Volume Claims (PVCs)
 
-- [1. What's & Why's of Services](./Module-3/01-Service/1-Service.md)
-- [2. Types of Kubernetes Services](./Module-3/01-Service/2-Types-of-Service.md)
-- [3. DNS in Kubernetes and Service Discovery](./Module-3/01-Service/3-DNS-K8s-svc-Discovery.md)
+Dynamic Volume Provisioning
+Storage Classes
+CSI (Container Storage Interface) Drivers
 
-- [4. Future Topics.md](./Module-3/01-Service/4-Future-Topics.md)
+#### Distributed Storage Systems
 
-- [5.4 "NetworkPolicies" & Security with "Ingress"](./Module-3/01-Service/5.4-NetworkPolicies-Ingress.md)
+Ceph, GlusterFS, Rook
 
-#### 3.2. Ingress
+#### Data Management
 
-- [1. Ingress](./Module-3/02-Ingress/1-Ingress.md)
-- [2. Ingress Controllers](./Module-3/02-Ingress/2-Ingress-Controllers.md)
+Backup and Restore Strategies
+Disaster Recovery in Kubernetes
 
-### 4. Storage
+---
 
 #### 4.1. Volumes
 
@@ -151,6 +165,15 @@
 
 - [1. PVs, PVCs and Storage Classes](./Module-4/02-Persistent-Volumes/1-PVs-PVCs.md)
 - [2. Advanced-Topics](./Module-4/02-Persistent-Volumes/2-Advanced-Topics.md)
+
+---
+
+### 3. Services, Load Balancing, and Networking
+
+#### 3.2. Ingress
+
+- [1. Ingress](./Module-3/02-Ingress/1-Ingress.md)
+- [2. Ingress Controllers](./Module-3/02-Ingress/2-Ingress-Controllers.md)
 
 ### 6. Policies
 

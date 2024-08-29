@@ -47,17 +47,20 @@
 - Network isolation between Pods
 - Creating and applying Network Policies
 
-## **3. Pod Storage**
+## **3. Pod Storage Management**
 
-### [3.1 Volumes in Pods](./03-Pod-Storage/3.1-Volumes-in-Pods.md)
+### [Topics to be covered](./03-Pod-Storage/Future-Topics.md)
+
+### [3.1 Volume Types](./03-Pod-Storage/3.1-Volumes-in-Pods.md)
 
 - Types of Volumes (emptyDir, hostPath, persistentVolume, etc.)
-- Mounting Volumes in Pods
 
 ### [3.2 Persistent Volumes (PVs) and Persistent Volume Claims (PVCs)](./03-Pod-Storage/3.2-pv-pvc.md)
 
-- Binding PVs to PVCs
-- Dynamic provisioning of storage
+- **PV Lifecycle**: Creation, binding, reclaiming, and deletion.
+- **PVC Binding**: How a PVC requests storage and gets bound to a PV.
+- **Dynamic Provisioning**: Automatically creating PVs using StorageClasses when PVCs are requested.
+- **Access Modes**: Understanding `ReadWriteOnce`, `ReadOnlyMany`, and `ReadWriteMany`.
 
 ## **4. Pod Scheduling**
 
@@ -119,17 +122,17 @@
 
 ## **8. Pod Disruption Budget (PDB)**
 
-### [8.1. Purpose of PDBs](./08-Advanced-Pod-Patterns/8.1-Purpose-of-PDBs.md)
+### [8.1. Purpose of PDBs](./08-Pod-Disruption-Budget/8.1-Purpose-of-PDBs.md)
 
 - Ensuring minimum Pod availability during disruptions.
 - Preventing full application downtime.
 
-### [8.2. PDB Configuration](./08-Advanced-Pod-Patterns/8.2-PDB-Configuration.md)
+### [8.2. PDB Configuration](./08-Pod-Disruption-Budget/8.2-PDB-Configuration.md)
 
 - Setting `minAvailable` or `maxUnavailable` Pods.
 - Using labels to apply PDBs to specific Pods.
 
-### [8.3. Use Cases](./08-Advanced-Pod-Patterns/8.3-Use-Cases.md)
+### [8.3. Use Cases](./08-Pod-Disruption-Budget/8.3-Use-Cases.md)
 
 - Maintaining service uptime during node maintenance or updates.
 - Balancing Pod availability and cluster operations.
