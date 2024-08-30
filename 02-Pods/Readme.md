@@ -77,7 +77,8 @@
 ### [4.3 Resource Requests and Limits](./04-Pod-Scheduling/4.3-Resource-Requests-Limits.md)
 
 - Setting CPU and memory requests/limits for Pods
-- Handling resource overcommitment and QoS (Quality of Service) classes
+- Handling resource overcommitment
+- QoS (Quality of Service) classes
 
 ## **5. Pod Monitoring and Logging**
 

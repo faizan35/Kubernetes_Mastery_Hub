@@ -136,8 +136,6 @@
 - Using Environment Variables from ConfigMaps and Secrets
 - Environment Variable Substitution
 
----
-
 ### 6. Security and Compliance
 
 #### 6.1. RBAC (Role-Based Access Control)
@@ -210,6 +208,31 @@
   - Set up automated certificate management using tools like cert-manager.
   - Ensure compliance with security standards by enforcing HTTPS routing.
 
+### **8. Kubernetes Performance and Optimization**
+
+#### **8.1. Resource Management**
+
+- CPU and Memory Resource Requests and Limits
+- Quality of Service (QoS) Classes
+
+#### **8.2. Horizontal Pod Autoscaler (HPA)**
+
+- Scaling Pods Based on Metrics
+- Custom Metrics for Autoscaling
+
+#### **8.3. Vertical Pod Autoscaler (VPA)**
+
+- Automatically Adjusting Resource Requests
+
+#### **8.4. Cluster Autoscaler**
+
+- Scaling the Kubernetes Cluster Nodes
+
+#### **8.5. Performance Tuning**
+
+- Node and Cluster Level Performance Optimization
+- Pod Scheduling and Resource Optimization
+
 ---
 
 ## Tools
@@ -277,42 +300,6 @@ Happy learning!
 
 ### Advanced Kubernetes Learning Syllabus for Industry-Level Knowledge
 
-#### **1. Core Concepts and Architecture**
-
-- **Introduction to Kubernetes**
-  - Kubernetes Architecture: Master and Worker Nodes
-  - Key Components: API Server, Scheduler, Controller Manager, Kubelet, Kube-Proxy, etcd
-- **Pods**
-  - Advanced Pod Lifecycle
-  - Multi-Container Pods
-  - Pod Init Containers
-  - Pod Disruption Budgets (PDB)
-  - Security Contexts in Pods
-- **Namespaces**
-  - Namespace Management
-  - Resource Quotas and Limits in Namespaces
-- **Kubernetes Networking**
-  - Kubernetes Networking Model
-  - CNI Plugins: Calico, Flannel, Weave, etc.
-  - Service Discovery and CoreDNS
-  - Network Policies and Security
-
-#### **2. Advanced Resource Management**
-
-- **Deployments**
-  - Rolling Updates, Rollbacks, and Deployment Strategies
-  - Canary Deployments and Blue-Green Deployments
-- **StatefulSets**
-  - Stateful Applications
-  - Persistent Storage with StatefulSets
-- **DaemonSets**
-  - System Daemons and Cluster-wide Services
-- **ReplicaSets**
-  - Managing Replicas and Scaling Applications
-- **Jobs and CronJobs**
-  - Batch Processing with Jobs
-  - Scheduled Tasks with CronJobs
-
 #### **3. Configuration Management**
 
 - **ConfigMaps and Secrets**
@@ -324,46 +311,6 @@ Happy learning!
 - **Kustomize**
   - Overlay and Patch Kubernetes Resources
   - Custom Resource Definitions (CRDs)
-
-#### **4. Security and Compliance**
-
-- **RBAC (Role-Based Access Control)**
-  - Roles, RoleBindings, ClusterRoles, and ClusterRoleBindings
-  - Service Accounts and Permissions
-- **Pod Security Policies (PSPs)**
-  - Restricting Pod Capabilities
-  - Enforcing Security Standards
-- **Network Security**
-  - Implementing Network Policies
-  - Using Service Mesh for Security (e.g., Istio)
-- **Secrets Management**
-  - Integrating External Secrets Managers (e.g., HashiCorp Vault)
-  - Securing Secrets with Encryption
-
-#### **5. Storage Management**
-
-- **Persistent Volumes (PVs) and Persistent Volume Claims (PVCs)**
-  - Dynamic Volume Provisioning
-  - Storage Classes
-  - CSI (Container Storage Interface) Drivers
-- **Distributed Storage Systems**
-  - Ceph, GlusterFS, Rook
-- **Data Management**
-  - Backup and Restore Strategies
-  - Disaster Recovery in Kubernetes
-
-#### **6. Kubernetes Networking and Service Mesh**
-
-- **Service Mesh Overview**
-  - Introduction to Istio, Linkerd, and Consul
-- **Service Mesh Features**
-  - Traffic Management, Load Balancing, and Failover
-  - Circuit Breaking and Retries
-  - Secure Service Communication (mTLS)
-- **Ingress Controllers**
-  - NGINX, Traefik, and other Ingress Controllers
-  - Ingress Resource Configuration
-  - SSL/TLS Termination and HTTPS Routing
 
 #### **7. Monitoring, Logging, and Tracing**
 
@@ -465,7 +412,3 @@ Happy learning!
 - **Project 5: Multi-Cluster Management and Disaster Recovery**
 
 ---
-
-This syllabus covers a comprehensive set of topics required for mastering Kubernetes at an advanced, industry-ready level. It is designed to equip you with the knowledge and skills to handle complex Kubernetes environments, manage production workloads, and implement best practices in a real-world setting.
-
-Let me know if you would like to explore any specific topics in more detail or need additional resources!
