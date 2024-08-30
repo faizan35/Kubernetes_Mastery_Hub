@@ -167,24 +167,48 @@
 
 #### [More Topics](./06-Security-and-Compliance/More-topics.md)
 
----
+### **7. Service Mesh, Load Balancing and Ingress Controllers**
 
-### 3. Services, Load Balancing, and Networking
+#### **7.1. Service Mesh**
 
-#### 3.2. Ingress
+##### [**7.1.1. Service Mesh Overview**](./07-Service-Mesh-Ingress-Controllers/01-Service-Mesh/01-Service-Mesh-Intro.md)
 
-- [1. Ingress](./Module-3/02-Ingress/1-Ingress.md)
-- [2. Ingress Controllers](./Module-3/02-Ingress/2-Ingress-Controllers.md)
+- Introduction to Service Mesh
+- Introduction to Istio, Linkerd, and Consul
+- Service Mesh Use Cases
 
-### 6. Policies
+##### [**7.1.2. Service Mesh Features**](./07-Service-Mesh-Ingress-Controllers/01-Service-Mesh/02-Service-Mesh-Features.md)
 
-#### 6.1. LimitRange
+- Traffic Management, Load Balancing, and Failover
+- Circuit Breaking and Retries
 
-- [1. LimitRange](./Module-6/01-Limit-Ranges/01-Limit-Ranges.md)
+##### [**7.1.3. Secure Service Communication (mTLS)**](./07-Service-Mesh-Ingress-Controllers/01-Service-Mesh/03-Secure-service-communication.md)
 
-#### 6.2. ResourceQuota
+- **Security Standards**
+  - mTLS Implementation
+  - Certificate Management
+  - Policy Enforcement
 
-- [1. ResourceQuota](./Module-6/02-ResourceQuota/01-ResourceQuota.md)
+#### **7.2. Ingress and Ingress Controllers**
+
+##### [**7.2.1. Ingress Controllers Overview**](./07-Service-Mesh-Ingress-Controllers/02-Ingress-Controller/01-Ingress-Controller-Intro.md)
+
+- Introduction to Ingress Controller
+- Selection Criteria NGINX, Traefik, and other Ingress Controllers
+- Ingress Controllers for Cloud Providers
+
+##### [**7.2.2. Ingress Resource**](./07-Service-Mesh-Ingress-Controllers/02-Ingress-Controller/02-Ingress-Resource-Configuration.md)
+
+- Introduction to Ingress or Ingress Resource
+- Configure advanced Ingress resources
+- Integrate Ingress with Service Mesh
+
+##### [**7.2.3. SSL/TLS Termination and HTTPS Routing**](./07-Service-Mesh-Ingress-Controllers/02-Ingress-Controller/03-ssl-tsl-routing.md)
+
+- **Security Practices**
+  - Configure SSL/TLS termination in Ingress Controllers.
+  - Set up automated certificate management using tools like cert-manager.
+  - Ensure compliance with security standards by enforcing HTTPS routing.
 
 ---
 
