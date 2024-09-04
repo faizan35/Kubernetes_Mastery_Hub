@@ -32,26 +32,32 @@
 
 - [Everything about Pods](./02-Pods/Readme.md)
 
-### 3. Kubernetes Networking
+### 3. Kubernetes Networking - Part I
 
-- [3.1. Kubernetes Networking Model](./03-Kubernetes-Networking/01-Kubernetes-Networking-Model.md)
-- [3.2. CNI Plugins: Calico, Flannel, Weave, etc.](./03-Kubernetes-Networking/02-CNI-Plugins.md)
-- [3.3. Service Discovery and CoreDNS](./03-Kubernetes-Networking/03-Service-Discovery-CoreDNS.md)
-- [3.4. Network Policies and Security](./03-Kubernetes-Networking/04-Network-Policies-Security.md)
+#### [3.1. Basic Concepts](./03-Kubernetes-Networking-I/01-Basic-Concepts.md)
 
----
+- Overview of Kubernetes Networking
+- Pod-to-Pod Communication
+- Overview of Flat Networking (Default k8s Networking Model)
+- Container Network Interface (CNI)
+- Network Plugins: Flannel, Calico, Weave
 
-#### 3.1. Service
+#### [3.2. Network Namespaces and IP Address Management](./03-Kubernetes-Networking-I/02-Network-Namespaces-IP-Address-Management.md) (Not that Imp)
 
-- [1. What's & Why's of Services](./Module-3/01-Service/1-Service.md)
-- [2. Types of Kubernetes Services](./Module-3/01-Service/2-Types-of-Service.md)
-- [3. DNS in Kubernetes and Service Discovery](./Module-3/01-Service/3-DNS-K8s-svc-Discovery.md)
+- Understanding Network Namespaces
+- IP Address Management (IPAM) in Kubernetes
 
-- [4. Future Topics.md](./Module-3/01-Service/4-Future-Topics.md)
+#### [3.3. Cluster Networking Basics](./03-Kubernetes-Networking-I/03-Cluster-Networking-Basics.md)
 
-- [5.4 "NetworkPolicies" & Security with "Ingress"](./Module-3/01-Service/5.4-NetworkPolicies-Ingress.md)
+- Cluster DNS and CoreDNS
+- Service Discovery in Kubernetes
+- External and Internal DNS Resolution
 
----
+#### 3.4. Service Networking
+
+- [1. What's & Why's of Services](./03-Kubernetes-Networking-I/01-Service/1-Service.md)
+- [2. Types of Services](./03-Kubernetes-Networking-I/01-Service/2-Types-of-Service.md) ClusterIP, NodePort, LoadBalancer, ExternalName
+- [3. Headless Services and StatefulSets, External and Internal Load Balancing](./03-Kubernetes-Networking-I/01-Service/3-Headless-StatefulSets-External-Internal-Load-Balancing.md)
 
 ### 4. Workloads Objects / Resource Management
 
