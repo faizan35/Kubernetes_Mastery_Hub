@@ -171,48 +171,94 @@
 
 #### [More Topics](./06-Security-and-Compliance/More-topics.md)
 
-### **7. Service Mesh, Load Balancing and Ingress Controllers**
+---
+
+[ff](./03-Kubernetes-Networking-I/01-Basic-Concepts.md)
+
+### **7. Kubernetes Networking - Part II**
 
 #### **7.1. Service Mesh**
 
-##### [**7.1.1. Service Mesh Overview**](./07-Service-Mesh-Ingress-Controllers/01-Service-Mesh/01-Service-Mesh-Intro.md)
+##### [**7.1.1. Service Mesh Overview**](./07-Kubernetes-Networking-II/01-Service-Mesh/01-Service-Mesh-Intro.md)
 
 - Introduction to Service Mesh
 - Introduction to Istio, Linkerd, and Consul
 - Service Mesh Use Cases
 
-##### [**7.1.2. Service Mesh Features**](./07-Service-Mesh-Ingress-Controllers/01-Service-Mesh/02-Service-Mesh-Features.md)
+##### [**7.1.2. Service Mesh Features**](./07-Kubernetes-Networking-II/01-Service-Mesh/02-Service-Mesh-Features.md)
 
 - Traffic Management, Load Balancing, and Failover
 - Circuit Breaking and Retries
 
-##### [**7.1.3. Secure Service Communication (mTLS)**](./07-Service-Mesh-Ingress-Controllers/01-Service-Mesh/03-Secure-service-communication.md)
+##### [**7.1.3. Secure Service Communication (mTLS)**](./07-Kubernetes-Networking-II/01-Service-Mesh/03-Secure-service-communication.md)
 
 - **Security Standards**
   - mTLS Implementation
   - Certificate Management
   - Policy Enforcement
 
-#### **7.2. Ingress and Ingress Controllers**
+#### **7.2. Ingress and Egress**
 
-##### [**7.2.1. Ingress Controllers Overview**](./07-Service-Mesh-Ingress-Controllers/02-Ingress-Controller/01-Ingress-Controller-Intro.md)
+##### [**7.2.1. Ingress Controllers Overview**](./07-Kubernetes-Networking-II/02-Ingress-Controller/01-Ingress-Controller-Intro.md)
 
 - Introduction to Ingress Controller
 - Selection Criteria NGINX, Traefik, and other Ingress Controllers
 - Ingress Controllers for Cloud Providers
 
-##### [**7.2.2. Ingress Resource**](./07-Service-Mesh-Ingress-Controllers/02-Ingress-Controller/02-Ingress-Resource-Configuration.md)
+##### [**7.2.2. Ingress Resource**](./07-Kubernetes-Networking-II/02-Ingress-Controller/02-Ingress-Resource-Configuration.md)
 
 - Introduction to Ingress or Ingress Resource
 - Configure advanced Ingress resources
 - Integrate Ingress with Service Mesh
 
-##### [**7.2.3. SSL/TLS Termination and HTTPS Routing**](./07-Service-Mesh-Ingress-Controllers/02-Ingress-Controller/03-ssl-tsl-routing.md)
+##### [**7.2.3. SSL/TLS Termination and HTTPS Routing**](./07-Kubernetes-Networking-II/02-Ingress-Controller/03-ssl-tsl-routing.md)
 
 - **Security Practices**
   - Configure SSL/TLS termination in Ingress Controllers.
   - Set up automated certificate management using tools like cert-manager.
   - Ensure compliance with security standards by enforcing HTTPS routing.
+
+##### [**7.2.4. Egress**](./07-Kubernetes-Networking-II/02-Ingress-Controller/04-Egress.md)
+
+- Egress Traffic Control
+- Network Policies for Egress Traffic
+- Configuring and Managing Egress Gateways
+
+#### **7.3. Network Policies**
+
+##### [**7.3.1. Introduction to Network Policies**](./07-Kubernetes-Networking-II/03-Network-Policies/01-Network-Policies-Intro.md)
+
+- What's and Why of Kubernetes Network Policies
+- Creating and Applying Network Policies
+- Best Practices for Network Policies
+
+##### [**7.3.2. Security Considerations**](./07-Kubernetes-Networking-II/03-Network-Policies/02-Security-Considerations.md)
+
+- Implementing Zero Trust Network Policies
+- Restricting Pod-to-Pod Communication
+- Network Isolation Strategies
+
+### **7.4. Advanced Network Management**
+
+#### [**7.4.1. Multi-Cluster Networking**](./07-Kubernetes-Networking-II/04-Advanced-Network-Management/01-Multi-Cluster-Networking.md)
+
+- Federation and Multi-Cluster Networking
+- Service Mesh in Multi-Cluster Environments
+- Cross-Cluster Communication and Security
+
+#### [**7.4.2. IPv6 Support in Kubernetes**](./07-Kubernetes-Networking-II/04-Advanced-Network-Management/02-IPv6-Support-in-Kubernetes.md)
+
+- IPv6 Dual-Stack Networking
+- Configuring IPv6 in Kubernetes
+
+#### [**7.4.3. Service Discovery Beyond the Cluster**](./07-Kubernetes-Networking-II/04-Advanced-Network-Management/03-Service-Discovery-Beyond-the-Cluster.md)
+
+- Integrating External DNS with Kubernetes
+- Service Mesh Gateways for External Services
+
+#### [More Topics](./07-Kubernetes-Networking-II/more-topics.md)
+
+---
 
 ### **8. Kubernetes Performance and Optimization**
 
