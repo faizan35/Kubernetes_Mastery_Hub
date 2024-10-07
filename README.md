@@ -171,10 +171,6 @@
 
 #### [More Topics](./06-Security-and-Compliance/More-topics.md)
 
----
-
-[ff](./03-Kubernetes-Networking-I/01-Basic-Concepts.md)
-
 ### **7. Kubernetes Networking - Part II**
 
 #### **7.1. Service Mesh**
@@ -291,18 +287,22 @@
 
 - [List of all most used tools](./Module-T/Everything-about-Tools.md)
 
-### T1. **Helm Charts:**
+### 1. [**Helm**](./k8s-Tools/01-Helm/Readme.md)
 
-- [T1.0 Helm Syllabus](./Module-T/Module-T1/T1.0-Helm-Syllabus.md)
-- [T1.1 Introduction to Helm](./Module-T/Module-T1/T1.1-Introduction-Helm.md)
-- [T1.2 Installation and Setup](./Module-T/Module-T1/T1.2-Helm-Installation-Setup.md)
-- [T1.3 Commands & Structure](./Module-T/Module-T1/T1.3-Helm-Basics.md)
-- [T1.4 Creating Custom Helm Chart](./Module-T/Module-T1/T1.4-Creating-Custom-Helm-Chart.md)
-- [T1.5 Helmfile](./Module-T/Module-T1/T1.5-Helmfile.md)
-- [T1.6 Helm Repo](./Module-T/Module-T1/T1.6-Helm-repo.md)
-- [T1.7 Helm Hooks and Helm Test](./Module-T/Module-T1/T1.7-Helm-hook-test.md)
+- [1. Introduction to Helm](./k8s-Tools/01-Helm/T1.1-Introduction-Helm.md)
+- [2. Installing and Setting Up Helm](./k8s-Tools/01-Helm/T1.2-Helm-Installation-Setup.md)
 
-### T2. **Kustomize:**
+---
+
+- [0. Helm Syllabus](./k8s-Tools/01-Helm/T1.0-Helm-Syllabus.md)
+
+- [3. Commands & Structure](./k8s-Tools/01-Helm/T1.3-Helm-Basics.md)
+- [4. Creating Custom Helm Chart](./k8s-Tools/01-Helm/T1.4-Creating-Custom-Helm-Chart.md)
+- [5. Helmfile](./k8s-Tools/01-Helm/T1.5-Helmfile.md)
+- [6. Helm Repo](./k8s-Tools/01-Helm/T1.6-Helm-repo.md)
+- [7. Helm Hooks and Helm Test](./k8s-Tools/01-Helm/T1.7-Helm-hook-test.md)
+
+### 2. **Kustomize:**
 
 - **Theory:**
 
@@ -328,6 +328,11 @@
 We welcome contributions from the community! If you'd like to contribute, follow these steps:
 
 1. Fork the repository.
+
+```sh
+git clone https://github.com/faizan35/Kubernetes_Mastery_Hub.git
+```
+
 2. Create a new branch for your feature or bug fix.
 3. Make your changes and submit a pull request.
 4. Provide a detailed description of your changes.
